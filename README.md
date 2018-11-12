@@ -1,7 +1,7 @@
 # Halcones 2K
 - Alejandro Marín Gómez
-- Carlos Álvarez Linares
-- Silvia Castillo Ruíz
+- Carlos Alvarez Linares
+- Silvia Castillo Ruiz
 - Isaac Martínez López
 - Alberto Chillerón Beviá
 
