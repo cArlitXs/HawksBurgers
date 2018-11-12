@@ -1,10 +1,8 @@
-# Scrum 2 - Styles & Multimedia
+# Halcones 2K
+Alejandro Marín Gómez
+Carlos Álvarez Linares
+Silvia Castillo Ruíz
+Isaac Martínez López
+Alberto Chillerón Beviá
 
-## TODO: Change \_config.yml file
-Change your `_config.yml` file to update `baseurl` with your repo name.
-
-## TODO: Team data
-Include here your team name and team members
-
-## TODO: Site URL
-Include here your site URL published in GitHub Pages
+## https://interfacesweb18-19.github.io/scrum-2-styles-multimedia-halcones-2k/
