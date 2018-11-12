@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Diseño de Interfaces Web.
   IES Mare Nostrum - Alicante
 # TODO: Change to match your team repo
-baseurl: "/halcones-2k" # the subpath of your site, e.g. /blog
+baseurl: "/scrum-2-styles-multimedia-halcones-2k" # the subpath of your site, e.g. /blog
 url: "http://interfacesweb18-19.github.io" # the base hostname & protocol for your site
 
 # Build settings
