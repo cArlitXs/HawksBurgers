@@ -19,8 +19,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Sitio web creado para realizar prácticas del módulo de
   Diseño de Interfaces Web.
   IES Mare Nostrum - Alicante
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://interfacesweb17-18.github.io" # the base hostname & protocol for your site
+# TODO: Change to match your team repo
+baseurl: "/scrum2" # the subpath of your site, e.g. /blog
+url: "http://interfacesweb18-19.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
