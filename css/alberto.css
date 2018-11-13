@@ -1,0 +1,15 @@
+/*Página confirmación de Pedido*/
+.confirmacionPedido h1{
+	text-align: center;
+}
+.confirmacionPedido .nombreProducto{
+
+}
+
+.confirmacionPedido .precioProducto{
+	text-align: right;
+}
+
+.confirmacionPedido .totalPrecio{
+
+}
