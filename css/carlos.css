@@ -1,5 +1,19 @@
-.circle{
+#page-about{
+  font-family: 'Roboto';
+  padding: 15px;
+}
+#page-about h3{
+  font-family: 'Roboto Slab';
+}
+#page-about p{
+  text-align: justify;
+}
+#page-about .circle{
   border-radius: 50%;
   background-color: grey;
-  width: 500px;
+  width: 200px;
+  height: 200px;
+}
+#page-about > div{
+  padding: 15px;
 }
