@@ -1,36 +1,24 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset="utf-8">
-    <title>{{page.title}}</title>
-    <meta name="author" content="">
-    <meta name="description" content="">
-	<link href="css/estilos.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <header>
-      {% include header.html %}
-    </header>
-
-    <nav>
-      {% include nav.html %}
-    </nav>
-
-    <aside>
-      {% include aside.html %}
-    </aside>
-
-    <section>
-      {{content}}
-    </section>
-
-    <footer>
-      {% include footer.html %}
-    </footer>
-
-  </body>
-
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>{{page.title}}</title>
+		<meta name="description" content="">
+		<link href="{{site.baseurl}}/css/estilos.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav>
+			{% include nav.html %}
+		</nav>
+		{% include header.html %}
+		<!--
+		<aside>
+			{% include aside.html %}
+		</aside>
+		-->
+		<section id="principal">
+			{{content}}
+		</section>
+		{% include footer.html %}
+	</body>
 </html>
