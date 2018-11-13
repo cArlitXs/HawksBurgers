@@ -1,4 +1,8 @@
 /*Página confirmación de Pedido*/
+.confirmacionPedido{
+	border:3px solid orange;
+}
+
 .confirmacionPedido h1{
 	text-align: center;
 }
