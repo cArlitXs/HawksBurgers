@@ -1,3 +1,13 @@
+@import url("animate.css");
+@import url("font-awesome.css");
+
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Equipo */
+
 @import url("alberto.css");
 @import url("isaac.css");
 @import url("silvia.css");
