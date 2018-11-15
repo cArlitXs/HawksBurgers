@@ -7,6 +7,10 @@
 #page-about section article header p{
   text-align: justify;
 }
+#page-about section article .imgAbout img{
+  width: 100%;
+  border-radius: 5px;
+}
 #page-about .circle img{
   border-radius: 50%;
   background-color: orange;
@@ -49,6 +53,10 @@
     .col-s-12 {width: 100%;}*/
 }
 @media only screen and (min-width: 768px) {
+  #page-about{
+    width: 80%;
+    margin: 0 auto;
+  }
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
