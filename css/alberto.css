@@ -6,13 +6,11 @@
 #confirmacionPedido h1{
 	text-align: center;
 }
-#nombreProducto{
-float:left;
+#nombreProducto p{
+border: 1px solid orange;
 }
-
 #precioProducto{
 	text-align: right;
-	float:right;
 }
 
 #totalPrecio{
