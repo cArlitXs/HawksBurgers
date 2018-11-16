@@ -6,12 +6,14 @@ body > header {
 
 body > header > .icono-menu {
 	position: absolute;
-	background-color: #fff;
+	background: #fff url('../img/burguer.svg') center center no-repeat;
+	box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+	background-size: 75%;
 	border-radius: 5px;
-	padding: 15px;
+	height: 55px;
+	width: 55px;
 	top: 15px;
 	right: 15px;
-	color: #2d3133;
 }
 
 body > header > img {
