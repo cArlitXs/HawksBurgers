@@ -13,6 +13,12 @@
 }
 #page-about .circle img{
   border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  transition: 1s;
+}
+#page-about .circle img:hover{
+  border-radius: 0%;
   background-color: orange;
   width: 70%;
   height: 70%;
@@ -34,10 +40,11 @@
 [class*="col-"] {
   width: 100%;
 }
-@media only screen and (min-width: 600px) {
-  /*[class*="col-"] {
-    width: 50%;
-  }*/
+@media only screen and (min-width: 420px) {
+  #page-about{
+    width: 100%;
+    margin: 0 auto;
+  }
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
