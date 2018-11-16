@@ -2,15 +2,18 @@
 #confirmacionPedido{
 	border:3px solid orange;
 }
-
+#listaCompra{
+	border: 3px solid orange;
+}
 #confirmacionPedido h1{
 	text-align: center;
 }
-#nombreProducto p{
-border: 1px solid orange;
+#nombreProducto {
+float:left;
 }
 #precioProducto{
 	text-align: right;
+	float:right;
 }
 
 #totalPrecio{
