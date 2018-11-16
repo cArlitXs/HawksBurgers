@@ -18,15 +18,25 @@ body > header {
 }
 
 body > header > #icono-menu {
+	z-index: 6;
 	position: absolute;
 	background: #fff url('../img/burguer.svg') center center no-repeat;
 	box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
 	background-size: 75%;
 	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	display: table;
 	height: 55px;
 	width: 55px;
 	top: 15px;
 	right: 15px;
+}
+
+body > header > #icono-menu > i.fa {
+	display: table-cell;
+	vertical-align: middle;
+	color: black;
 }
 
 body > header > #icono-menu:active {
