@@ -1,6 +1,17 @@
 body > header {
-	background-color: green;
+	position: relative;
+	background-color: #a5c124;
 	overflow: auto;
+}
+
+body > header > .icono-menu {
+	position: absolute;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 15px;
+	top: 15px;
+	right: 15px;
+	color: #2d3133;
 }
 
 body > header > img {
@@ -10,7 +21,7 @@ body > header > img {
 }
 
 body > header > .eslogan {
-	background-color: black;
+	background-color: #2d3133;
 	padding: 12px 0;
 	text-align: center;
 	color: #fff;
@@ -19,6 +30,6 @@ body > header > .eslogan {
 /* Footer */
 
 body > footer {
-	background-color: #212121;
+	background-color: #a5c124;
 	color: #fff;
 }
