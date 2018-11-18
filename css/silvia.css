@@ -1,3 +1,17 @@
 #contenidoContacto{
 	text-align:center;
+	background-color:orange;
 }
+  
+		   
+	 input,textarea{
+		border-radius:8px;}
+		   
+	#name,#mail{
+		margin-right:200px;
+		   }
+		   
+	 #send{
+	 width:120px;}
+		    
+		   
