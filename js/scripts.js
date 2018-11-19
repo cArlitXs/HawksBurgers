@@ -21,7 +21,7 @@ $(document).ready(function() {
 		Menu.addClass('active');
 		Menu.fadeToggle('fast', 'linear');
 		Body.prepend('<a href="#" id="nav_overlay" class="overlay CerrarMenuPrincipal" style="display: none;"></a>');
-		$('a#nav_overlay').fadeIn(1200);
+		$('a#nav_overlay').fadeIn(600);
 	});
 	
 	$('.CerrarMenuPrincipal').on('click', function(e) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
 		let Overlay = $('body > a#nav_overlay');
 		Menu.removeClass('active');
 		Menu.fadeToggle('fast', 'linear');
-		Overlay.fadeOut(1200, function() {
+		Overlay.fadeOut(600, function() {
 			$(this).remove();
 		});
 	});
