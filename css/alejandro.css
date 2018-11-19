@@ -1,70 +1,62 @@
-/*
-	Reset
-*/
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+body > nav {
+	display: none;
+	z-index: 5;
+	position: fixed;
+	background-color: rgba(45, 49, 51, 0.8);
+	padding: 50px;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	width: 80vw;
 }
-
-/* Tamanyos de texto */
-
-p, .p {
-	font-size: 14px;
-}
-
-h1, .h1 {
-	font-size: 38px;
-}
-
-h2, .h2 {
-	font-size: 34px;
-}
-
-h3, .h3 {
-	font-size: 30px;
-}
-
-h4, .h4 {
-	font-size: 26px;
-}
-
-h5, .h5 {
-	font-size: 22px;
-}
-
-h6, .h6 {
-	font-size: 18px;
-}
-
-.Roboto {
-	font-family: 'Roboto', sans-serif;
-}
-
-.RobotoSlab {
-	font-family: 'Roboto Slab', serif;
-}
-
-/*
-	Estilos generales
-*/
-
-/* Footer */
 
 body > header {
-	background-color: green;
+	background-color: #a5c124;
 	overflow: auto;
+	width: 100%;
+}
+
+body a.boton-menu-principal {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	display: table;
+	height: 55px;
+	width: 55px;
+	top: 15px;
+	right: 15px;
+}
+
+body > header > a.boton-menu-principal {
+	background-image: url('../img/burguer.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 75%;
+}
+
+body > nav > a.boton-menu-principal > i.fa {
+	display: table-cell;
+	vertical-align: middle;
+	color: black;
+}
+
+body > nav > a.boton-menu-principal:active {
+	box-shadow: none;
+	top: 11px;
+	right: 11px;
 }
 
 body > header > img {
 	display: block;
-	margin: 90px auto;
-	height: 95px;
+	margin: 25px auto;
+	height: 100px;
 }
 
-body > header > .eslogan {
-	background-color: black;
+body > header > #eslogan {
+	background-color: #2d3133;
 	padding: 12px 0;
 	text-align: center;
 	color: #fff;
@@ -73,6 +65,17 @@ body > header > .eslogan {
 /* Footer */
 
 body > footer {
-	background-color: #212121;
+	background-color: #a5c124;
 	color: #fff;
+}
+
+@media only screen and (min-width: 420px) {
+	body > nav {
+		width: 70vw;
+	}
+}
+@media only screen and (min-width: 768px) {
+	body > nav {
+		width: 20vw;
+	}
 }
