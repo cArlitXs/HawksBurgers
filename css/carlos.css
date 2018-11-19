@@ -1,9 +1,12 @@
-#page-about *{
-  font-family: 'Roboto';
+/*---All pages---*/
+* {
+  font-family: 'Roboto', sans-serif;
 }
-#page-about h2, #page-about h6{
-  font-family: 'Roboto Slab';
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto Slab', serif;
 }
+
+/*---About---*/
 #page-about section article header p{
   text-align: justify;
 }
@@ -24,5 +27,10 @@
   height: 70%;
 }
 #page-about .centro, #page-about .centro p{
+  text-align: center;
+}
+
+/*---Resumen compra---*/
+#page-resumen .center{
   text-align: center;
 }
