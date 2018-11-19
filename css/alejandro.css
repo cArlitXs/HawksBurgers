@@ -82,7 +82,7 @@ body > nav > a.boton-menu-principal:active {
 
 body > header > img {
 	display: block;
-	margin: 25px 0;
+	margin: 25px;
 	height: 100px;
 }
 
