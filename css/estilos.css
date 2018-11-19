@@ -3,13 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* Variables */
-
-:root {
-    --corte-tablets: 420px;
-	--corte-ordenadores: 768px;
-}
-
 /* Equipo */
 
 @import url("alberto.css");

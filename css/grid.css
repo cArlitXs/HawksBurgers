@@ -15,7 +15,7 @@
 [class*="col-"] {
   width: 100%;
 }
-@media only screen and (min-width: var(--corte-tablets)) {
+@media only screen and (min-width: 420px) {
   .container{
     width: 100%;
     margin: 0 auto;
@@ -34,7 +34,7 @@
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
 }
-@media only screen and (min-width: var(--corte-ordenadores)) {
+@media only screen and (min-width: 768px) {
   .container{
     width: 80%;
     margin: 0 auto;
