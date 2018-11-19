@@ -10,9 +10,32 @@ body > nav {
 	width: 80vw;
 }
 
+body > nav > ul {
+	list-style: none;
+	margin-top: 55px;
+}
+
+body > nav > ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 24px;
+}
+
+body > nav > ul li {
+	border-bottom: 1px solid #fff;
+}
+
+body > nav > ul li:first-child {
+	border-top: 1px solid #fff;
+}
+
 body > header {
 	background-color: #a5c124;
 	overflow: auto;
+	z-index: 5;
+	top: 0;
 	width: 100%;
 }
 
@@ -76,6 +99,6 @@ body > footer {
 }
 @media only screen and (min-width: 768px) {
 	body > nav {
-		width: 20vw;
+		width: 450px;
 	}
 }
