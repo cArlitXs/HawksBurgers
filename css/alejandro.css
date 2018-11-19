@@ -11,9 +11,11 @@ body > nav {
 }
 
 body > header {
-	position: relative;
+	position: fixed;
 	background-color: #a5c124;
 	overflow: auto;
+	width: 100%;
+	max-height: 198px;
 }
 
 body > header > #icono-menu {
@@ -55,6 +57,12 @@ body > header > #eslogan {
 	padding: 12px 0;
 	text-align: center;
 	color: #fff;
+}
+
+/* Cuerpo */
+
+body > section#principal {
+	margin-top: 198px;
 }
 
 /* Footer */
