@@ -4,4 +4,59 @@ title: Página de galería de imágenes
 permalink: /galeria
 ---
 
-<p>Página de galería de imágenes<p>
+<div id="central">
+		<div id="direccion" class="row">
+			<div id="pasos" class="col-3">
+				<label><b>Dirección de Envío</b></label>
+			</div>
+			<div id="datos" class="col-9">
+				<label id="Nombre y Apellidos">Nombre y Apellidos:</label><br>
+				<input type="text" style="border-radius: 5px;" size="100%" class="nombre" name="nombre" placeholder="Nombre y Apellidos">
+				<br><br>
+				<label id="txtDireccion">Dirección:</label><br>
+				<input type="text" style="border-radius: 5px;" class="direc" name="direccion" placeholder="Dirección">
+				
+			</div>
+			<br>
+		</div>
+		<div id="metodoPago">
+			<br>
+			<div id="pasos">
+				<label><b>Método de Pago</b></label>
+			</div>
+			<div id="datos">
+				<label id="formaPago">Selecciona forma de pago:</label><br>
+				<input type="radio" name="radio"><label>Tarjeta		</label>
+				<input type="text" style="border-radius: 5px;" class="numtarjeta" name="numtarjeta" placeholder="0000-0000-0000-0000">
+				<br>
+				<input type="radio" name="radio"><label>Efectivo</label>
+				
+			</div>
+			<br>
+		</div>
+		<br>
+		<div id="resumen">
+			<div id="pasos">
+			<label><b>Resumen de los Productos</b></label>
+			</div>
+			<div id="datosresumen">
+				<div id="pedido">
+					<img src="./hamburguesa.png" width="50px" height="40px"><label> Hamburguesa 1 bla bla bla </label>
+					<br>
+					<img src="./hamburguesa2.png" width="50px" height="50px"><label> Hamburguesa 2 bla bla bla </label>
+					<br>
+					<img src="./hamburguesa3.jpg" width="50px" height="50px"><label> Hamburguesa 3 bla bla bla </label>
+				</div>
+				<br>
+				<div id="compra" class="row">
+					<div class="col-4">
+						<input type="button" name="botoncompra" id="botoncompra" value="Comprar Ahora">
+					</div>
+					<div class="col-8">
+						<label><b>Importe Total: 13.50 €</b></label>
+					</div>
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
