@@ -1,4 +1,4 @@
-div.overlay {
+.overlay {
 	z-index: 9999;
 	position: fixed;
 	width: 100%;
