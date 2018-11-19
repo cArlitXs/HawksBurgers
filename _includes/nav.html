@@ -1,8 +1,8 @@
 <ul>
   {% for page in site.html_pages %}
-	{% if page.menu != "no" %}
+	{% if page.menu == "yes" %}
 	  <li>
-		<a href="{{site.baseurl}}{{page.url}}">{{page.icon}} {{page.title}}</a>
+		<a href="{{site.baseurl}}{{page.url}}"><i class="fa {{page.icon}}"></i> {{page.title}}</a>
 	  </li>
 	{% endif %}
   {% endfor %}
