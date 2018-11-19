@@ -11,6 +11,7 @@ body > nav {
 	z-index: 10000;
 	position: fixed;
 	background-color: rgba(45, 49, 51, 0.8);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	padding: 50px;
 	top: 0;
 	right: 0;
