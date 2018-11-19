@@ -1,0 +1,31 @@
+/*---All pages---*/
+
+
+/*---About---*/
+#page-about section article header p{
+  text-align: justify;
+}
+#page-about section article .imgAbout img{
+  width: 100%;
+  border-radius: 20px;
+}
+#page-about .circle img{
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  transition: 0.2s;
+}
+#page-about .circle img:hover{
+  border-radius: 5%;
+  background-color: orange;
+  width: 70%;
+  height: 70%;
+}
+#page-about .centro, #page-about .centro p{
+  text-align: center;
+}
+
+/*---Resumen compra---*/
+#page-resumen .center{
+  text-align: center;
+}
