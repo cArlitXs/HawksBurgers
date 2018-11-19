@@ -18,9 +18,11 @@ $(document).ready(function() {
 		let Boton = $(this);
 		let Menu = $('body > nav');
 		if (Menu.hasClass('active')){
+			$('body > div#overlay').remove();
 			Menu.removeClass('active');
 			Menu.fadeToggle('fast', 'linear');
 		} else {
+			$('body').prepend('<div id="overlay"></div>');
 			Menu.addClass('active');
 			Menu.fadeToggle('fast', 'linear');
 		}
