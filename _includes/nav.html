@@ -1,7 +1,9 @@
 <ul>
   {% for page in site.html_pages %}
-  <li>
-    <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
-  </li>
+	{% if page.menu != "no" %}
+	  <li>
+		<a href="{{site.baseurl}}{{page.url}}">{{page.icon}} {{page.title}}</a>
+	  </li>
+	{% endif %}
   {% endfor %}
 </ul>
