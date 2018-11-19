@@ -21,7 +21,7 @@ $(document).ready(function() {
 		Menu.addClass('active');
 		Menu.fadeToggle('fast', 'linear');
 		Body.prepend('<div id="nav_overlay" class="overlay CerrarMenuPrincipal" style="display: none;"></div>');
-		$('div#nav_overlay').fadeInt(1200);
+		$('div#nav_overlay').fadeIn(1200);
 	});
 	
 	$('.CerrarMenuPrincipal').click(function(e) {
