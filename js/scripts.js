@@ -1,4 +1,7 @@
+// Por Alejandro Marín Gómez
+
 $(window).scroll(function() {
+	
 	let Ventana = $(this);
 	let Cabecera = $('body > header');
 	if(Ventana.scrollTop() > Cabecera.height()) {
@@ -6,24 +9,19 @@ $(window).scroll(function() {
 	} else {
 		Cabecera.css({'position': 'relative'});
 	}
+	
 });
 
 $(document).ready(function() {
-	
-	// Menu principal
-	// Por Alejandro Marín Gómez
 	
 	$('a#AbrirMenuPrincipal').click(function(e) {
 		e.preventDefault();
 		let Menu = $('body > nav');
 		let Body = $('body');
 		Menu.addClass('active');
-		Menu.fadeToggle('fast', 'linear', function() {
-			Body.prepend('<div id="nav_overlay" class="overlay CerrarMenuPrincipal" style="display: none;"></div>', function() {
-				$('div#nav_overlay').fadeInt(1200);
-			});
-		});
-		
+		Menu.fadeToggle('fast', 'linear');
+		Body.prepend('<div id="nav_overlay" class="overlay CerrarMenuPrincipal" style="display: none;"></div>');
+		$('div#nav_overlay').fadeInt(1200);
 	});
 	
 	$('.CerrarMenuPrincipal').click(function(e) {
