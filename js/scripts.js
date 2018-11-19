@@ -24,7 +24,7 @@ $(document).ready(function() {
 		$('a#nav_overlay').fadeIn(600);
 	});
 	
-	$('.CerrarMenuPrincipal').on('click', function(e) {
+	$(document).on('click', '.CerrarMenuPrincipal', function(e) {
 		e.preventDefault();
 		let Menu = $('body > nav');
 		let Overlay = $('body > a#nav_overlay');
