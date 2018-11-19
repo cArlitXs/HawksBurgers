@@ -30,7 +30,9 @@ $(document).ready(function() {
 		let Overlay = $('body > div#nav_overlay');
 		Menu.removeClass('active');
 		Menu.fadeToggle('fast', 'linear');
-		Overlay.fadeOut(1200);
+		Overlay.fadeOut(1200, function() {
+			$(this).remove();
+		});
 	});
 	
 });
