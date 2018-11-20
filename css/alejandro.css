@@ -41,6 +41,7 @@ body > nav > ul li:first-child {
 }
 
 body > header {
+	position: fixed;
 	background-color: #a5c124;
 	overflow: auto;
 	z-index: 5;
@@ -82,13 +83,17 @@ body > nav > a.boton-menu-principal:active {
 }
 
 body > header > img {
+	position: absolute;
 	z-index: 500;
 	display: block;
-	margin: 25px 25px -7px;
+	margin: 25px auto -7px;
 	height: 100px;
+	left: 0;
+	right: 0;
 }
 
 body > header > #eslogan {
+	position: absolute;
 	background-color: #2d3133;
 	padding: 12px 15px;
 	text-align: center;
