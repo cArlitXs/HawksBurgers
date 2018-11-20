@@ -1,0 +1,98 @@
+---
+layout: layout
+title: Resumen
+permalink: /resumencompra
+---
+
+<div id="central" >
+	<div class="row">
+	<div id="datosMetodos" class="col-6" >
+		<div id="direccion" style="padding: 15px;" >
+			<div id="pasos" >
+				<br>
+				<h5>Dirección de Envío:</h5>
+			</div>
+			<div id="datos" >
+				<br>
+				<label id="Nombre y Apellidos" >Nombre y Apellidos:</label><br>
+				<input type="text" style="border-radius: 5px;"class="nombre" name="nombre" placeholder="Nombre y Apellidos">
+				<br><br>
+				<label id="txtDireccion">Dirección:</label><br>
+				<input type="text" style="border-radius: 5px;" class="direc" name="direccion" placeholder="Dirección">
+				
+			</div>
+			<br>
+		</div>
+		<div id="metodoPago" style="padding: 15px;">
+			<br>
+			<div id="pasos">
+
+				<h5>Método de Pago:</h5>
+			</div>
+			<div id="datos">
+				<br>
+				<h6 id="formaPago">Selecciona forma de pago:</h6><br><br>
+				<input type="radio" name="radio">Tarjeta
+				<input type="text" style="border-radius: 5px;" class="numtarjeta" name="numtarjeta" placeholder="0000-0000-0000-0000">
+				<br>
+				<input type="radio" name="radio">Efectivo
+				
+			</div>
+			<br>
+		</div>
+	</div>
+		<br>
+		<div id="resumen" style="padding: 15px;" class="col-6">
+			<div id="pasos">
+			<label><b>Resumen de los Productos:</b></label>
+			</div>
+			<div id="datosresumen">
+				<div id="pedido" >
+					<div>
+						<div id="hamburguesa1">
+							<img  src="./images/cheeseburger.png" width="50px" height="40px">Hamburguesa con queso 		
+						
+						</div>
+						<div id="precio1">
+							<p>3,50 €</p>
+						</div>
+						<br>
+
+					</div>
+					<div>
+						<div id="hambuguesa2">
+							<div style="display: inline-block;background: url('images/bigking.jpg') center no-repeat; background-size: cover;height: 50px;width: 50px;"></div> Hamburguesa doble con queso 
+						<br>
+						</div>
+						<div id="precio2">
+							<br><p>5,50€ </p>
+
+						</div>
+					</div>
+					<div>
+						<div id="hamburguesa3">
+							<img src="./images/ensaladaoriginal.jpg" width="50px" height="50px"> Ensalada original completa
+							<br>
+						</div>
+						<div id="precio3">
+							<p>4,50 €</p>
+						</div>
+					</div>
+					<br>
+					<br>
+				</div>
+			</div>
+				<br>
+				<div id="compra" class="row" style="padding: 15px;">
+					<div class="col-8">
+						<label><b>Importe Total: 13.50 €</b></label>
+					</div>
+					<div class="col-4">
+						<input type="button" name="botoncompra" id="botoncompra" value="Comprar Ahora">
+					</div>
+				</div>
+				<br>
+			</div>
+		</div>
+
+	</div>
