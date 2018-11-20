@@ -37,7 +37,7 @@ body > nav > ul li a {
 }
 
 body > nav > ul li a:hover {
-	transform: rotate(-2.5deg) scale(1.35);
+	transform: rotate(-2.5deg) scale(1.2);
 }
 
 body a.boton-menu-principal {
