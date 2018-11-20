@@ -1,5 +1,5 @@
 // Por Alejandro Marín Gómez
-
+/*
 $(window).scroll(function() {
 	
 	let Ventana = $(this);
@@ -11,7 +11,7 @@ $(window).scroll(function() {
 	}
 	
 });
-
+-*/
 $(document).ready(function() {
 	
 	$('a.ModalPersonal').click(function(e) {
