@@ -27,11 +27,14 @@ $(document).ready(function() {
 	
 	$('a#AbrirMenuPrincipal').click(function(e) {
 		e.preventDefault();
-		let Menu = $('body > nav');
 		let Body = $('body');
-		Menu.addClass('active');
-		Menu.fadeToggle('fast', 'linear');
 		Body.prepend('<a href="#" id="nav_overlay" class="overlay CerrarMenuPrincipal" style="display: none;"></a>');
+		//document.getElementById("body > nav").style.width = '20vw';
+		//document.getElementById('body > nav').style.marginLeft = '20vw';
+		$('body > nav').animate({
+			'width': TamanyoMenu,
+			'margin-right': '+=' + TamanyoMenu,
+		}, 1200);
 		$('a#nav_overlay').fadeIn(600);
 	});
 	
@@ -39,11 +42,14 @@ $(document).ready(function() {
 		e.preventDefault();
 		let Menu = $('body > nav');
 		let Overlay = $('body > a#nav_overlay');
-		Menu.removeClass('active');
-		Menu.fadeToggle('fast', 'linear');
+		//Menu.fadeToggle('fast', 'linear');
 		Overlay.fadeOut(600, function() {
 			$(this).remove();
 		});
+		Menu.animate({
+			'width': '0',
+			'margin-right': '-=0',
+		}, 1200);
 	});
 	
 });
