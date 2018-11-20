@@ -108,6 +108,33 @@ section#principal {
 	margin-top: 166px;
 }
 
+/* Inicio */
+
+section#principal .contenedor-video {
+	position: relative;
+	height: 20vh;
+	display: table;
+}
+section#principal .contenedor-video video {
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+	top: 0;
+	width: 100%;
+}
+
+section#principal .contenedor-video .contenido {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Footer */
 
 body > footer {
