@@ -12,7 +12,7 @@ body > nav {
 	position: fixed;
 	background-color: rgba(45, 49, 51, 0.8);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-	padding: 50px 25px;
+	padding: 40px 25px;
 	top: 0;
 	right: 0;
 	height: 100vh;
@@ -94,6 +94,7 @@ body > header > #eslogan {
 	text-align: center;
 	color: #fff;
 	letter-spacing: 2px;
+	z-index: -5;
 }
 
 /* Footer */
