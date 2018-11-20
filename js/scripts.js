@@ -31,6 +31,7 @@ $(document).ready(function() {
 	Menu.css({
 		'margin-right' : 0,
 		'width': 0,
+		'display': 'block',
 	});
 	
 	$('a#AbrirMenuPrincipal').click(function(e) {
