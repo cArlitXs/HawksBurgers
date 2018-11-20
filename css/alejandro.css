@@ -27,17 +27,12 @@ body > nav > ul {
 body > nav > ul li a {
 	display: block;
 	text-decoration: none;
-	padding: 15px 0;
-	color: #fff;
+	background-color: #fff;
+	margin-top: 8px;
+	transform: rotate(-2.5deg);
+	padding: 12px;
+	color: #809811;
 	font-size: 24px;
-}
-
-body > nav > ul li {
-	border-bottom: 1px solid #fff;
-}
-
-body > nav > ul li:first-child {
-	border-top: 1px solid #fff;
 }
 
 body a.boton-menu-principal {
