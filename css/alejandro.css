@@ -82,7 +82,7 @@ body > nav > a.boton-menu-principal:active {
 }
 
 body > header > img {
-	z-index: 1;
+	z-index: 500;
 	display: block;
 	margin: 25px 25px -7px;
 	height: 100px;
@@ -94,7 +94,7 @@ body > header > #eslogan {
 	text-align: center;
 	color: #fff;
 	letter-spacing: 2px;
-	z-index: -5;
+	z-index: 1;
 }
 
 /* Footer */
