@@ -14,6 +14,17 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
+	$('a.ModalPersonal').click(function(e) {
+		e.preventDefault();
+		let Body = $('body');
+		let IdModal =  'ModalPersonal_' + Math.random();
+		let Nombre = $(this).data('nombre');
+		Body.prepend('<div id="' + IdModal + '" style="display: none;">' + Nombre + '</div>');
+		/*Overlay.fadeOut(600, function() {
+			$(this).remove();
+		});*/
+	});
+	
 	$('a#AbrirMenuPrincipal').click(function(e) {
 		e.preventDefault();
 		let Menu = $('body > nav');
