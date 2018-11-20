@@ -1,19 +1,43 @@
+.overlay {
+	z-index: 9999;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
 body > nav {
 	display: none;
-	z-index: 5;
+	z-index: 10000;
 	position: fixed;
 	background-color: rgba(45, 49, 51, 0.8);
-	padding: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	padding: 40px 25px;
 	top: 0;
 	right: 0;
 	height: 100vh;
 	width: 80vw;
 }
 
-body > header {
-	background-color: #a5c124;
-	overflow: auto;
-	width: 100%;
+body > nav > ul {
+	list-style: none;
+	margin-top: 55px;
+}
+
+body > nav > ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 24px;
+}
+
+body > nav > ul li {
+	border-bottom: 1px solid #fff;
+}
+
+body > nav > ul li:first-child {
+	border-top: 1px solid #fff;
 }
 
 body a.boton-menu-principal {
@@ -28,6 +52,7 @@ body a.boton-menu-principal {
 	width: 55px;
 	top: 15px;
 	right: 15px;
+	z-index: 9999;
 }
 
 body > header > a.boton-menu-principal {
@@ -49,17 +74,43 @@ body > nav > a.boton-menu-principal:active {
 	right: 11px;
 }
 
+body > header {
+	position: fixed;
+	background-color: #a5c124;
+	overflow: auto;
+	z-index: 5;
+	top: 0;
+	width: 100%;
+	height: 166px;
+}
+
 body > header > img {
+	position: absolute;
+	z-index: 500;
 	display: block;
-	margin: 25px auto;
+	margin: 25px auto -7px;
 	height: 100px;
+	left: 0;
+	right: 0;
 }
 
 body > header > #eslogan {
+	position: absolute;
 	background-color: #2d3133;
-	padding: 12px 0;
+	box-shadow: 5px 2px 7px #000;
+	padding: 10px 15px;
 	text-align: center;
 	color: #fff;
+	letter-spacing: 2px;
+	z-index: 1;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Contenido */
+
+section#principal {
+	margin-top: 166px;
 }
 
 /* Footer */
@@ -73,9 +124,13 @@ body > footer {
 	body > nav {
 		width: 70vw;
 	}
+	body > header > img {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media only screen and (min-width: 768px) {
 	body > nav {
-		width: 20vw;
+		width: 450px;
 	}
 }
