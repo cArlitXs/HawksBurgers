@@ -2,7 +2,7 @@
 /*#confirmacionPedido{
 	border:3px solid orange;
 }*/
-#direccion, #metodoPago, #resumen{
+#direccion, #central2{
 	border-bottom: 1px solid black;
 }
 #botoncompra{
@@ -27,4 +27,11 @@
 #precio1, #precio2, #precio3{
 	float:right;
 	text-align: right;
+}
+#datosMetodos{
+    height: 100%;
+}
+#resumen{
+    height: 100%;
+
 }

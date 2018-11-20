@@ -5,7 +5,7 @@ permalink: /resumencompra
 ---
 
 <div id="central" >
-	<div class="row">
+	<div class="row" id="central2">
 	<div id="datosMetodos" class="col-6" >
 		<div id="direccion" style="padding: 15px;" >
 			<div id="pasos" >
@@ -35,6 +35,7 @@ permalink: /resumencompra
 				<input type="radio" name="radio">Tarjeta
 				<input type="text" style="border-radius: 5px;" class="numtarjeta" name="numtarjeta" placeholder="0000-0000-0000-0000">
 				<br>
+				<br>
 				<input type="radio" name="radio">Efectivo
 				
 			</div>
@@ -44,39 +45,40 @@ permalink: /resumencompra
 		<br>
 		<div id="resumen" style="padding: 15px;" class="col-6">
 			<div id="pasos">
-			<label><b>Resumen de los Productos:</b></label>
+			<h5>Resumen de los Productos:</h5>
 			</div>
 			<div id="datosresumen">
 				<div id="pedido" >
 					<div>
-						<div id="hamburguesa1">
-							<img  src="./images/cheeseburger.png" width="50px" height="40px">Hamburguesa con queso 		
+						<div id="hambuguesa1">
+							<div style="display: inline-block;background: url('images/cheeseburger.png') center no-repeat; background-size: cover;height: 50px;width: 50px;"></div> Hamburguesa queso 
 						
 						</div>
-						<div id="precio1">
+						<div id="precio1" style="height: 50px;width: 50px;">
 							<p>3,50 €</p>
 						</div>
-						<br>
+						
 
 					</div>
 					<div>
 						<div id="hambuguesa2">
 							<div style="display: inline-block;background: url('images/bigking.jpg') center no-repeat; background-size: cover;height: 50px;width: 50px;"></div> Hamburguesa doble con queso 
-						<br>
+						
 						</div>
-						<div id="precio2">
-							<br><p>5,50€ </p>
-
+						<div id="precio2" style="height: 50px;width: 50px;">
+							<p>5,50€ </p>
 						</div>
+						
 					</div>
 					<div>
-						<div id="hamburguesa3">
-							<img src="./images/ensaladaoriginal.jpg" width="50px" height="50px"> Ensalada original completa
-							<br>
+						<div id="hambuguesa3">
+							<div style="display: inline-block;background: url('images/ensaladaoriginal.jpg') center no-repeat; background-size: cover;height: 50px;width: 50px;"></div> Ensalada Original
+						
 						</div>
-						<div id="precio3">
+						<div id="precio3" style="height: 50px;width: 50px;">
 							<p>4,50 €</p>
 						</div>
+
 					</div>
 					<br>
 					<br>
@@ -85,7 +87,7 @@ permalink: /resumencompra
 				<br>
 				<div id="compra" class="row" style="padding: 15px;">
 					<div class="col-8">
-						<label><b>Importe Total: 13.50 €</b></label>
+						<p><b>Importe Total: 13.50 €</b></p>
 					</div>
 					<div class="col-4">
 						<input type="button" name="botoncompra" id="botoncompra" value="Comprar Ahora">
