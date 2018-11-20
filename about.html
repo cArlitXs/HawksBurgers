@@ -2,7 +2,7 @@
 layout: layout
 title: About us
 permalink: /about
-icon: fa-users
+icon: "fa-users"
 menu: "yes"
 ---
 <div id="page-about" class="container">
@@ -26,7 +26,7 @@ menu: "yes"
     <div class="row centro">
       <div class="col-4 col-s-6 centro">
         <div class="circle">
-          <a class="ModalPersonal"><img src="{{site.baseurl}}/resources/profile-vector-woman.png" alt="profile man"></a>
+          <a id="myBtn" class="ModalPersonal"><img class="pointer" src="{{site.baseurl}}/resources/profile-vector-woman.png" alt="profile man"></a>
         </div>
         <h6><b>Silvia Castillo</h6>
         <p><i>Scrum Master</i></p>
@@ -70,16 +70,17 @@ menu: "yes"
       <div id="myModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header" style="padding-top:25px; padding-bottom:25px;">
             <span class="close">&times;</span>
-            <h2>Modal Header</h2>
+            <h4>Silvia Castillo</h4>
+            <p><i>Scrum Master</i></p>
           </div>
-          <div class="modal-body">
+          <div class="modal-body"  style="padding-top:25px; padding-bottom:25px;">
             <p>Some text in the Modal Body</p>
             <p>Some other text...</p>
           </div>
-          <div class="modal-footer">
-            <h3>Modal Footer</h3>
+          <div class="modal-footer" style="padding-top:25px; padding-bottom:25px;">
+            <h6>Contact: <u>silvia11111@iesmarenostrum.com</u></h6>
           </div>
         </div>
       </div>
