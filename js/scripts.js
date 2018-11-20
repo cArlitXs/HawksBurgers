@@ -28,6 +28,7 @@ $(document).ready(function() {
 	$('a#AbrirMenuPrincipal').click(function(e) {
 		e.preventDefault();
 		let Body = $('body');
+		let Menu = $('body > nav');
 		Body.prepend('<a href="#" id="nav_overlay" class="overlay CerrarMenuPrincipal" style="display: none;"></a>');
 		Menu.fadeToggle('fast', 'linear'); 
 		$('a#nav_overlay').fadeIn(600);
