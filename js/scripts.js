@@ -14,6 +14,25 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	
+	$('a.ModalPersonal').click(function(e) {
+		e.preventDefault();
+		let Body = $('body');
+		let IdModal =  'ModalPersonal_' + Math.random();
+		let Nombre = $(this).data('nombre');
+		Body.prepend('<div id="' + IdModal + '" style="display: none;">' + Nombre + '</div>');
+		/*Overlay.fadeOut(600, function() {
+			$(this).remove();
+		});*/
+	});
+	
+	var Menu = $('body > nav');
+	var TamanyoMenu = Menu.width();
+	
+	Menu.css({
+		'margin-right' : 0,
+		'width': 0,
+	});
+	
 	$('a#AbrirMenuPrincipal').click(function(e) {
 		e.preventDefault();
 		let Body = $('body');
@@ -21,8 +40,8 @@ $(document).ready(function() {
 		//document.getElementById("body > nav").style.width = '20vw';
 		//document.getElementById('body > nav').style.marginLeft = '20vw';
 		$('body > nav').animate({
-			width: '20vw',
-			left: '+=20',
+			'width': TamanyoMenu,
+			'margin-right': '+=' + TamanyoMenu,
 		}, 1200);
 		$('a#nav_overlay').fadeIn(600);
 	});
@@ -36,8 +55,8 @@ $(document).ready(function() {
 			$(this).remove();
 		});
 		Menu.animate({
-			width: '0',
-			left: '-=0',
+			'width': '0',
+			'margin-right': '-=0',
 		}, 1200);
 	});
 	
