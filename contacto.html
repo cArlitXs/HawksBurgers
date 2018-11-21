@@ -2,35 +2,52 @@
 layout: layout
 title: Página de contacto
 permalink: /contacto
-icon: "fa-users"
+icon: "fa-send"
 menu: "yes"
 ---
-<div>
+<div class="container">
 	<div id="contenidoContacto">
-		<div >
+		
 			<div id="tituloContacto"><h1>Contact Us:<h1></div>
-		</div>
 		
 		<form>
 			<div class="row">
-				<div class="col-10">
-					<input id="name" type="text" id="Name" name="Name" size="40" placeholder="Name" required autofocus>
+				<div class="col-3 col-s-12"></div>
+				<div class="col-3 col-s-12" style="text-align:center">
+					<label><i class="fa fa-user"></i>Name:</label>
 				</div>
-				<div class="col-2">
-					<i class="fa fa-user"></i>
+				<div class="col-3 col-s-12">
+					<input id="name" style="width:100%;" type="text" name="Name" size="20" placeholder="Name" required autofocus>
+				</div>
+				<div class="col-3 col-s-12"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-3 col-s-12"></div>
+				<div class="col-3 col-s-12" style="text-align:center">
+					<label style="text-align:right;"><i class="fa fa-envelope"></i>Email:</label>
+				</div>
+				<div class="col-3 col-s-12">
+					<input id="mail" style="width:100%;" type="mail"  name="Email" size="20" placeholder="Email" required>
+				</div>
+				<div class="col-3 col-s-12"></div>
+			</div>
+			<div class="row">
+				<div class="col-3 col-s-12"></div>
+				<div class="col-6 col-s-12">
+					<label style="margin-top:200px;">Sugestions</label>
+						<div>
+							<p><textarea name="textarea" rows="10" cols="50"  placeholder="Sugestions"></textarea></p>
+						</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-10">
-					<input id="mail" type="mail" id="Email" name="Email" size="20" placeholder="Email" required>
+				<div class="col-3 col-s-12"></div>
+				<div class="col-6 col-s-12">
+					<div id="idboton">
+						<input id="send" type="button" value="Send" onclick="" size="12">
 					</div>
-				<div class="col-2">
-					<i class="fa fa-envelope"></i>
 				</div>
-			</div>
-				<div class="row"><label>Sugestion</label><div ><p><textarea name="textarea" rows="10" cols="50"  placeholder="Sugestion"></textarea></p></div>
-			</div>
-				<div class="row"><div ><input id="send" type="button" value="Send" onclick="" size="24"><i class="fa fa-arrow-circle-right"></i></div>
 			</div>
 		</form>
 	</div>
