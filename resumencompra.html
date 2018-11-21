@@ -1,11 +1,97 @@
 ---
 layout: layout
 title: Resumen
-permalink: /resumen
+permalink: /resumencompra
 ---
 
-<div id="page-resumen" class="container">
-  <div class="row">
-    <div class="col-12 col-s-12 center"><h2>Resumen compra</h2></div>
-  </div>
-</div>
+
+	<div class="row" id="central">
+	<div id="datosMetodos"  >
+		<div id="direccion" class="col-s-6"  style="padding: 15px;" >
+			<div id="pasos" class="row" >
+				<br>
+				<h5>Dirección de Envío:</h5>
+			</div>
+			<div id="datos" >
+				<br>
+				<label id="Nombre y Apellidos" >Nombre y Apellidos:</label><br>
+				<input type="text" style="border-radius: 5px;"class="nombre" name="nombre" placeholder="Nombre y Apellidos">
+				<br><br>
+				<label id="txtDireccion">Dirección:</label><br>
+				<input type="text" style="border-radius: 5px;" class="direc" name="direccion" placeholder="Dirección">
+				
+			</div>
+			<br>
+		</div>
+		<div id="metodoPago" class="col-s-6" style="padding: 15px;">
+			<br>
+			<div id="pasos">
+
+				<h5>Método de Pago:</h5>
+			</div>
+			<div id="datos">
+				<br>
+				<h6 id="formaPago">Selecciona forma de pago:</h6><br><br>
+				<input type="radio" name="radio">Tarjeta
+				<input type="text" style="border-radius: 5px;" class="numtarjeta" name="numtarjeta" placeholder="0000-0000-0000-0000">
+				<br>
+				<br>
+				<input type="radio" name="radio">Efectivo
+				
+			</div>
+			<br>
+		</div>
+	</div>
+		<br>
+		<div id="resumen" class="col-6">
+			<div id="pasos">
+			<h5>Resumen de los Productos:</h5>
+			</div>
+			<div id="datosresumen">
+				<div id="pedido"  >
+					<div id="hamburguesa1">
+						<div  >
+							<div style="display: inline-block;background: url('images/cheeseburger.png') center no-repeat; background-size: cover;height: 50px;width: 50px;"></div> Cheeseburguer 						
+						</div>
+						<div id="precio1">
+							<p>3,50 €</p>
+						</div>						
+					</div>
+					<br>
+					<div id="hamburguesa2">
+						<div >
+							<div style="display: inline-block;background: url('images/bigking.jpg') center no-repeat; background-size: cover;height: 50px;width: 50px;"></div> Double cheeseburguer 
+						
+						</div>
+						<div id="precio2" >
+							<p>5,50€ </p>
+						</div>
+						
+					</div>
+					<br>
+					<div id="hamburguesa3" >
+						<div >
+							<div style="display: inline-block;background: url('images/ensaladaoriginal.jpg') center no-repeat; background-size: cover;height: 50px;width: 50px;"></div> Salad
+						
+						</div>
+						<div id="precio3"  >
+							<p>4,50 €</p>
+						</div>
+
+					</div>
+					<br>
+					<br>
+				</div>
+			</div>
+				<br>
+				<div id="compra" class="row" style="padding: 15px;">
+					<div class="col-8">
+						<h6>Importe Total: 13.50 €</h6>
+					</div>
+					<div class="col-4">
+						<input type="button" name="botoncompra" id="botoncompra" value="Comprar Ahora">
+					</div>
+				</div>
+				<br>
+			</div>
+		</div>

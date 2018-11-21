@@ -15,10 +15,16 @@
 [class*="col-"] {
   width: 100%;
 }
+label{
+    visibility: hidden;
+}
 @media only screen and (min-width: 420px) {
   .container{
     width: 100%;
     margin: 0 auto;
+  }
+  label{
+    visibility: visible;
   }
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
@@ -38,6 +44,9 @@
   .container{
     width: 80%;
     margin: 0 auto;
+  }
+  label{
+    visibility: visible;
   }
   /* For desktop: */
   .col-1 {width: 8.33%;}
