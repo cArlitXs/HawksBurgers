@@ -162,7 +162,7 @@ article#inicio article div.productos a {
 article#inicio article div.productos div.item {
 	display: inline-block;
 	position: relative;
-	margin: 15px 15px 20px;
+	margin: 15px;
 	width: 20vw;
 	height: 20vw;
 	background-size: cover;
@@ -196,6 +196,11 @@ article#inicio article div.productos div.item > i.fa {
 	right: 0;
 	left: 0;
 	color: #fff;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+article#inicio article div.productos a:active div.item > i.fa {
+	text-shadow: none;
 }
 
 /* Footer */
