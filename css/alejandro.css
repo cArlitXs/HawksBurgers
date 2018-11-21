@@ -190,16 +190,14 @@ article#inicio article div.productos div.item > .nombre {
 	color: #000;
 }
 
-article#inicio article div.productos div.item > i.fa {
-	position: absolute;
+article#inicio article div.productos div.item i.fa {
 	text-align: center;
-	right: 0;
-	left: 0;
 	color: #fff;
 	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	width: 100%;
 }
 
-article#inicio article div.productos a:active div.item > i.fa {
+article#inicio article div.productos a:active div.item i.fa {
 	text-shadow: none;
 }
 
