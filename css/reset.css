@@ -23,7 +23,7 @@ input, textarea{
     outline: none;
     border-radius: 5px;
 }
-input:focus {
+input:focus, textarea:focus {
     border: 3px solid #a5c124;
 }
 input:invalid:focus {
