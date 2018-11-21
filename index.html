@@ -6,15 +6,20 @@ icon: "fa-home"
 menu: "yes"
 ---
 <article id="inicio">
-	<!--
-	<video autoplay muted loop>
-		<source src="resources/salad.mp4" type="video/mp4">
-	</video>
-	<div class="contenido">
-		<h1><i class="fa fa-home"></i> Hamburguesas</h1>
-	</div>
-	-->
 	<article>
+		<header class="video-hero jquery-background-video-wrapper demo-video-wrapper">
+			<div class="video-overlay"></div>
+			<video class="jquery-background-video" autoplay muted loop poster="{{site.baseurl}}/resources/burguer.png">
+				<source src="{{site.baseurl}}/resources/burguer.mp4" type="video/mp4">
+				<source src="{{site.baseurl}}/resources/burguer.webm" type="video/webm">
+				<source src="{{site.baseurl}}/resources/burguer.ogv type="video/ogg">
+			</video>
+			<div class="page-width">
+				<div class="video-hero--content">
+					<h1>HAMBURGUESAS</h1>
+				</div>
+			</div>
+		</header>
 		<div class="productos">
 			<a href="/galeria">
 				<div class="item" style="background-image: url('https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg');">
