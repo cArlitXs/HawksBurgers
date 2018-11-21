@@ -190,6 +190,14 @@ article#inicio article div.productos div.item > .nombre {
 	color: #000;
 }
 
+article#inicio article div.productos div.item > i.fa {
+	position: absolute;
+	text-align: center;
+	right: 0;
+	left: 0;
+	color: #fff;
+}
+
 /* Footer */
 
 body > footer {
