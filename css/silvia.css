@@ -3,7 +3,9 @@
 	background-color:white;
 }
     
-   
+   #tituloContacto{
+	   text-align:center;
+   }
 	 input,textarea{
 		border-radius:8px;}
 		   
@@ -12,6 +14,24 @@
 		   }
 		   
 	 #send{
-	 width:120px;}
+		 width:160px;
+		text-decoration: none;
+		padding: 10px;
+		font-weight: 600;
+		font-size: 20px;
+		color: #ffffff;
+		background-color: orange;
+		border-radius: 6px;
+		border: 2px solid orange;
+    }
+	
+	#send:hover{
+    color: #ffffff;
+    opacity:0.7;}
+	 
+	 #idboton{
+	 text-align:center;}
 		    
-		   
+textarea:focus{
+	border: 3px solid green;
+}
