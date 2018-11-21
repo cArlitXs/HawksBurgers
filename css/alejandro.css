@@ -115,6 +115,7 @@ section#principal {
 
 /* Inicio */
 
+/*
 section#principal .contenedor-video {
 	position: relative;
 	height: 20vh;
@@ -138,6 +139,68 @@ section#principal .contenedor-video .contenido {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+*/
+
+/* Listado de productos */
+
+article#inicio article div.productos {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+	padding: 15px;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+article#inicio article div.productos a {
+	text-decoration: none;
+}
+
+article#inicio article div.productos div.item {
+	display: inline-block;
+	position: relative;
+	margin: 15px;
+	width: 20vw;
+	height: 20vw;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+article#inicio article div.productos div.item > .precio {
+	position: absolute;
+    top: 20px;
+    right: 25px;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+    padding: 4px 12px;
+}
+
+article#inicio article div.productos div.item > .nombre {
+	position: absolute;
+	bottom: -15px;
+	left: 15px;
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+	color: #000;
+}
+
+article#inicio article div.productos div.item > i.fa {
+	position: absolute;
+	text-align: center;
+	right: 0;
+	left: 0;
+	color: #fff;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+article#inicio article div.productos a:active div.item > i.fa {
+	text-shadow: none;
 }
 
 /* Footer */
