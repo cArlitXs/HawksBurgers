@@ -5,12 +5,34 @@ $(document).ready(function() {
 	$('a.ModalPersonal').click(function(e) {
 		e.preventDefault();
 		let Body = $('body');
-		let IdModal =  'ModalPersonal_' + Math.random();
-		let Nombre = $(this).data('nombre');
-		Body.prepend('<div id="' + IdModal + '" style="display: none;">' + Nombre + '</div>');
-		/*Overlay.fadeOut(600, function() {
-			$(this).remove();
-		});*/
+		let Boton = $(this);
+		let Nombre = Boton.data('nombre');
+		let Puesto = Boton.data('puesto');
+		let Contenido = Boton.data('contenido');
+		let Contacto = Boton.data('contacto');
+		Body.prepend('<div class="modal" style="display: block;">'
+		+ '<div class="modal-content">'
+		+ '<div class="modal-header" style="padding-top:25px; padding-bottom:25px;">'
+		+ '<a href="#" class="close">&times;</a>'
+		+ '<h4><i class="fa fa-user"></i> ' + Nombre + '</h4>'
+		+ '<p><i>' + Puesto + '</i></p>'
+		+ '</div>'
+		+ '<div class="modal-body"  style="padding-top:25px; padding-bottom:25px;">'
+		+ '<p>' + Contenido + '</p>'
+		+ '</div>'
+		+ '<div class="modal-footer" style="padding-top:25px; padding-bottom:25px;">'
+		+ '<h6><i class="fa fa-envelope"></i> Contacto: <a href="mailto:' + Contacto + '" style="color: #fff;">' + Contacto + '</a></h6>'
+		+ '</div>'
+		+ '</div>'
+		+ '</div>');
+	});
+	
+	$(document).on('click', '.modal .close', function(e) {
+		e.preventDefault();
+		let Modal = $(this).parents('.modal');
+		Modal.hide(0, function() {
+			Modal.remove();
+		});
 	});
 	
 	$('a#AbrirMenuPrincipal').click(function(e) {
