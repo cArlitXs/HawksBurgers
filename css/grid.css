@@ -23,6 +23,9 @@ label{
     width: 100%;
     margin: 0 auto;
   }
+  label{
+    visibility: visible;
+  }
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
