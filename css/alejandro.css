@@ -92,6 +92,7 @@ body > header a img#logo_principal {
 	height: 100px;
 	left: 0;
 	right: 0;
+	transform: scale(1);
 	transition: all .2s ease-in-out;
 }
 

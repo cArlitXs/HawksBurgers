@@ -1,50 +1,100 @@
+---
+---
+
+
+.buttonsTop{
+
+    text-align: center;
+    padding-top: 100px;
+}
+
 
 
 .titleCarnes{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 9%;
     margin-bottom: 4%;
 }
 
-.fondo1{
-	background-image: url("images/R_onion.jpg");
+.titleSweet{
+
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
 }
 
 
 .fondo{
 	position:relative;
+    
 }
 
+.row{
+
+    padding-left: 10%;
+
+}
 
 .inner{
 	padding: 10% 5%;
 }
 
-.onionimg{
+.hamburgerimg{
     margin-left: -31%;
-    margin-top: -7%;
+    margin-top: 10%;
     width: 38%;
     position:absolute;
 }
 
 
-.picklesimg{
-    margin-left: 1288px;
-    margin-top: 48%;
+.tomatoimg{
+    margin-left: 91%;
+    margin-top: 25%;
     width: 9%;
     position:absolute;
 
 }
 
 .burger{
-    width: 60%;
-    padding-left: 9%;
-    padding-bottom: 30%;
+    width: 55%;
 }
 
-.burgerTitle{
+.titleburger{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #444242;
-        font-size: 24px;
+    font-size: 24px;
+    margin-left: 12%;
+
+}
+
+.titleSalad{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.saladimg{
+    width: 40%;
+    margin-left: -32%;
+    position: absolute;
+    margin-top: 12%;
+}
+
+.chickenimg{
+    margin-left: 79%;
+    position: absolute;
+}
+
+.chocolateimg{
+    position: absolute;
+    margin-left: 284%;
+    margin-top: -28%;
+}
+
+.coffeimg{
+    position: absolute;
+    width: 167%;
+    margin-left: -170%;
+    margin-top: -155%;
 }
