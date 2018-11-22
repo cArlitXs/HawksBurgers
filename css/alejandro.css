@@ -7,7 +7,7 @@
 }
 
 body > a#BotonCarro {
-	position: absolute;
+	position: fixed;
 	background-color: orange;
 	border-radius: 50%;
 	padding: 15px;
@@ -16,6 +16,11 @@ body > a#BotonCarro {
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 	bottom: 25px;
 	right: 35px;
+	transition: all .2s ease-in-out;
+}
+
+body > a#BotonCarro:hover {
+	transform: scale(1.2);
 }
 
 body > nav {
@@ -104,11 +109,6 @@ body > header a img#logo_principal {
 	height: 100px;
 	left: 0;
 	right: 0;
-	transition: all .2s ease-in-out;
-}
-
-body > header a:hover img#logo_principal {
-	transform: scale(1.2);
 }
 
 body > header > #eslogan {
