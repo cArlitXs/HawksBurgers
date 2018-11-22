@@ -1,53 +1,53 @@
 ---
 layout: layout
 title: Página de contacto
-permalink: /contacto
-icon: "fa-send"
+permalink: /Contact
+icon: "fa-envelope"
 menu: "yes"
 ---
-<div class="container">
-	<div id="contenidoContacto">
-			<div id="tituloContacto"><h1>Contact Us:<h1></div>
+<div id="contenidoContacto" class="container">
+	<div class="row">
+		<div class="col-12 ta-c">
+			<h1>Contact Us:<h1>
 		</div>
-		<form>
-			<div class="row">
-				<div class="col-3 col-s-12"></div>
-				<div class="col-3 col-s-12" style="text-align:center">
-					<label><i class="fa fa-user"></i>Name:</label>
-				</div>
-				<div class="col-3 col-s-12">
-					<input id="name" style="width:100%;" type="text" name="Name" size="20" placeholder="Name" required autofocus>
-				</div>
-				<div class="col-3 col-s-12"></div>
-			</div>
-			
-			<div class="row">
-				<div class="col-3 col-s-12"></div>
-				<div class="col-3 col-s-12" style="text-align:center">
-					<label style="text-align:right;"><i class="fa fa-envelope"></i>Email:</label>
-				</div>
-				<div class="col-3 col-s-12">
-					<input id="mail" style="width:100%;" type="mail"  name="Email" size="20" placeholder="Email" required>
-				</div>
-				<div class="col-3 col-s-12"></div>
-			</div>
-			<div class="row">
-				<div class="col-3 col-s-12"></div>
-				<div class="col-6 col-s-12">
-					<label style="margin-top:200px;">Sugestions</label>
-						<div>
-							<p><textarea name="textarea" rows="10" cols="50"  placeholder="Sugestions"></textarea></p>
-						</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-3 col-s-12"></div>
-				<div class="col-6 col-s-12">
-					<div id="idboton">
-						<input id="send" type="button" value="Send" onclick="" size="12">
-					</div>
-				</div>
-			</div>
-		</form>
 	</div>
+	<form>
+		<div class="row">
+			<div class="col-3 col-s-3"></div>
+			<div class="col-3 col-s-3 ta-c">
+				<label><i class="fa fa-user"></i> Name:</label>
+			</div>
+			<div class="col-3 col-s-3">
+				<input id="name" class="w-100" type="text" name="Name" size="20" placeholder="Name" required autofocus>
+			</div>
+			<div class="col-3 col-s-3"></div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3 col-s-3"></div>
+			<div class="col-3 col-s-3 ta-c">
+				<label style="text-align:right;"><i class="fa fa-envelope"></i> Email:</label>
+			</div>
+			<div class="col-3 col-s-3">
+				<input id="mail" class="w-100" type="email"  name="Email" size="20" placeholder="Email" required>
+			</div>
+			<div class="col-3 col-s-12"></div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3 col-s-3"></div>
+			<div class="col-12 col-s-12">
+				<label style="margin-top:200px;"><i class="fa fa-question-circle"></i> Sugestions:</label>
+				<textarea class="w-100" name="textarea" rows="10" cols="50"  placeholder="Sugestions"></textarea>
+			</div>
+			<div class="col-3 col-s-3"></div>
+		</div>
+		
+		<div class="row">
+			<div class="col-12 col-s-12 ta-c">
+				<input id="send" class="pointer" type="submit" value="Send" size="12">
+			</div>
+		</div>
+	</form>
+</div>
 </div>
