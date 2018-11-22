@@ -6,15 +6,50 @@ permalink: /reservas
 
 <div class="container">
 	<h1 style="text-align: center;"> Reservation </h1>
-	<p>Take your reservation and enjoy our food</p>
-	<label>Name:</label>
-	<input type="text" name="nombre" placeholder="Name">
-	<label>Select Date:</label>
-	<input type="date" name="calendar">
-	<select>
-		<option></option>
-	</select>
-	<input type="button" name="reservar" value="RESERVE">
-		
+	<p style="text-align: center">Take your reservation and enjoy our food</p>
+	<div>
+		<label>Name:</label>
+		<br>
+		<input type="text" size="" name="nombre" placeholder="Name">
+	</div>
+	<div class="row">
+		<div id="fecha" class="col-7">
+			<label>Select Date:</label>
+			<input type="date" name="calendar">
+		</div>
+		<br><br>
+		<div class="col-5" style="text-align: center">
+			<select style="border-radius: 5px">
+				<option>13:00</option>
+				<option>13:15</option>
+				<option>13:30</option>
+				<option>13:45</option>
+				<option>14:00</option>
+				<option>14:15</option>
+				<option>14:30</option>
+				<option>14:45</option>
+				<option>15:00</option>
+				<option>15:15</option>
+				<option>20:00</option>
+				<option>20:15</option>
+				<option>20:30</option>
+				<option>20:45</option>
+				<option>21:15</option>
+				<option>21:30</option>
+				<option>21:45</option>
+				<option>22:00</option>
+				<option>22:15</option>
+				<option>22:30</option>
+				<option>22:45</option>
+				<option>23:00</option>
+				<option>23:00</option>
+				<option>23:15</option>
+				<option>23:30</option>
+			</select>
+		</div>
+	</div>
+	<div>
+		<input type="button" name="reservar" value="RESERVE">
+	</div>
 </div>
 
