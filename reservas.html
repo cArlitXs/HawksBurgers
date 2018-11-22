@@ -6,19 +6,22 @@ permalink: /reservas
 
 <div class="container">
 	<h1 style="text-align: center;"> Reservation </h1>
-	<p style="text-align: center">Take your reservation and enjoy our food</p>
-	<div>
+	<fieldset>
+	<legend>Take your reservation and enjoy our food</legend>
+	<div class="row">
+		<div class="col-12">
 		<label>Name:</label>
 		<br>
 		<input type="text" size="" name="nombre" placeholder="Name">
+		</div>
 	</div>
-	<div class="row">
-		<div id="fecha" class="col-7">
+	<div class="row" style="padding: 15px;" >
+		<div id="fecha" class="col-7 col-s-7">
 			<label>Select Date:</label>
 			<input type="date" name="calendar">
 		</div>
 		<br><br>
-		<div class="col-5" style="text-align: center">
+		<div class="col-5 col-s-5" style="text-align: center">
 			<select style="border-radius: 5px">
 				<option>13:00</option>
 				<option>13:15</option>
@@ -48,8 +51,11 @@ permalink: /reservas
 			</select>
 		</div>
 	</div>
-	<div>
-		<input type="button" name="reservar" value="RESERVE">
+	<div class="row">
+		<div class="col-12">
+			<input type="button" name="reservar" value="RESERVE">
+		</div>
 	</div>
+	</fieldset>
 </div>
 
