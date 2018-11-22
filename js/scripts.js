@@ -21,7 +21,7 @@ $(document).ready(function() {
 		+ '<p>' + Contenido + '</p>'
 		+ '</div>'
 		+ '<div class="modal-footer" style="padding-top:25px; padding-bottom:25px;">'
-		+ '<h6><i class="fa fa-envelope"></i> Contacto: <a href="mailto:' + Contacto + '" style="color: #fff;">' + Contacto + '</a></h6>'
+		+ '<h6><i class="fa fa-envelope"></i> Contact: <a href="mailto:' + Contacto + '" style="color: #fff;">' + Contacto + '</a></h6>'
 		+ '</div>'
 		+ '</div>'
 		+ '</div>');
