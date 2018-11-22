@@ -1,66 +1,42 @@
----
----
+/*
+Añadir #page-menu antes de cualquier cosa
+*/
 
 
-.buttonsTop{
-
+#page-menu .buttonsTop{
     text-align: center;
     padding-top: 100px;
 }
-
-
-
-.titleCarnes{
+#page-menu .titleCarnes{
     text-align: center;
-    margin-top: 9%;
-    margin-bottom: 4%;
 }
-
-.titleSweet{
-
+#page-menu .titleSweet{
     text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
-
 }
-
-
-.fondo{
+#page-menu .fondo{
 	position:relative;
-    
 }
-
-.row{
-
-    padding-left: 10%;
-
-}
-
-.inner{
+#page-menu .inner{
 	padding: 10% 5%;
 }
-
-.hamburgerimg{
+#page-menu .hamburgerimg{
     margin-left: -31%;
     margin-top: 10%;
     width: 38%;
     position:absolute;
 }
-
-
-.tomatoimg{
+#page-menu .tomatoimg{
     margin-left: 91%;
     margin-top: 25%;
     width: 9%;
     position:absolute;
-
 }
-
-.burger{
-    width: 55%;
+#page-menu .burger{
+    width: 100%;
 }
-
-.titleburger{
+#page-menu .titleburger{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #444242;
@@ -68,33 +44,34 @@
     margin-left: 12%;
 
 }
-
-.titleSalad{
+#page-menu .titleSalad{
     text-align: center;
     margin-top: 5%;
 }
-
-.saladimg{
+#page-menu .saladimg{
     width: 40%;
     margin-left: -32%;
     position: absolute;
     margin-top: 12%;
 }
-
-.chickenimg{
+#page-menu .chickenimg{
     margin-left: 79%;
     position: absolute;
 }
-
-.chocolateimg{
+#page-menu .chocolateimg{
     position: absolute;
     margin-left: 284%;
     margin-top: -28%;
 }
-
-.coffeimg{
+#page-menu .coffeimg{
     position: absolute;
     width: 167%;
     margin-left: -170%;
     margin-top: -155%;
 }
+
+/*-------------------*/
+
+/*#page-menu img{
+  padding: 25px;
+}*/
