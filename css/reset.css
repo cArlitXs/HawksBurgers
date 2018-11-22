@@ -12,6 +12,24 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Roboto Slab', serif;
 }
 
+/*---Estilos de input---*/
+
+input, textarea{
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.2s;
+    outline: none;
+    border-radius: 5px;
+}
+input:focus, textarea:focus {
+    border: 3px solid #a5c124;
+}
+input:invalid:focus {
+   border-color: salmon;
+}
+
 /* Tamanyos de texto */
 
 p, .p {
@@ -40,4 +58,67 @@ h5, .h5 {
 
 h6, .h6 {
 	font-size: 18px;
+}
+
+/*---Estilos de botones---*/
+
+.button {
+  background-color: #a5c124; /* Green */
+  border: 3px solid transparent;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1 {
+	background-color: #a5c124;
+	color: white;
+}
+.button1:hover, .button1:focus {
+  background-color: white;
+  color: black;
+  border: 3px solid #a5c124;
+}
+
+.button2 {
+	background-color: #008CBA;
+	color: white;
+}
+.button2:hover, .button2:focus {
+  background-color: white;
+  color: black;
+  border: 3px solid #008CBA;
+}
+
+.button3 {
+	background-color: #f44336;
+	color: white;
+}
+.button3:hover, .button3:focus {
+	background-color: white;
+  color: black;
+  border: 3px solid #f44336;
+}
+
+.button4 {background-color: #c1c7cc;}
+.button4:hover, .button4:focus {
+  background-color: white;
+  color: black;
+  border: 3px solid #c1c7cc;
+}
+
+.button5 {
+	background-color: #555555;
+	color: white;
+}
+.button5:hover, .button5:focus {
+  background-color: white;
+  color: black;
+  border: 3px solid #555555;
 }

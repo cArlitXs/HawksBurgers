@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: About us
+title: About Us
 permalink: /about
 icon: "fa-users"
 menu: "yes"
@@ -9,8 +9,8 @@ menu: "yes"
   <section>
 		<article class="row">
 			<header class="col-6 col-s-6">
-				<h2>Nuestros productos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi posuere sem auctor felis convallis volutpat. Pellentesque luctus, tellus in porttitor viverra, massa justo vehicula augue, ut pulvinar eros mauris quis ligula. Curabitur ultrices sit amet sem id finibus. Aliquam ac justo ex. Cras vitae magna tristique, sodales mauris ac, varius diam. Maecenas ornare leo id quam laoreet ultricies. Quisque ullamcorper urna diam, vel porttitor nunc efficitur et.</p>
+				<h2>Our products</h2>
+        <p class="phrase">You're probably familiar with our tasty burgers but what do you know about us? Can you guess the secret behind Hawks Burguers success? Or, what do we do in Spain? Read on to find out!</p>
 			</header>
       <div class="col-6 col-s-6 imgAbout">
         <img src="{{site.baseurl}}/resources/ingredientes.jpg" alt="Ingredientes">
@@ -26,31 +26,31 @@ menu: "yes"
     <div class="row centro">
       <div class="col-4 col-s-6 centro">
         <div class="circle">
-          <a id="myBtn" class="ModalPersonal"><img class="pointer" src="{{site.baseurl}}/resources/profile-vector-woman.png" alt="profile man"></a>
+          <a href="#" class="ModalPersonal" data-nombre="Silvia" data-puesto="Scrum Master" data-contenido="prueba" data-contacto="castillo18581@iesmarenostrum.com"><img class="pointer" src="{{site.baseurl}}/resources/profile-vector-woman.png" alt="profile woman"></a>
         </div>
-        <h6><b>Silvia Castillo</h6>
+        <h6>Silvia Castillo</h6>
         <p><i>Scrum Master</i></p>
       </div>
 
       <div class="col-4 col-s-6 centro">
         <div class="circle">
-          <a href="#"><img src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
+          <a href="#" class="ModalPersonal" data-nombre="Carlos" data-puesto="Graphic Designer" data-contenido="Dueño de un perro nigga" data-contacto="alvarez157551@iesmarenostrum.com"><img class="pointer" src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
         </div>
         <h6>Carlos Alvarez</h6>
-        <p><i>Web Developer</i></p>
+        <p><i>Graphic Designer</i></p>
       </div>
 
       <div class="col-4 col-s-6 centro">
         <div class="circle">
-          <a href="#"><img src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
+          <a href="#" class="ModalPersonal" data-nombre="Alejandro" data-puesto="Web Developer" data-contenido="prueba" data-contacto="marin11111@iesmarenostrum.com"><img class="pointer" src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
         </div>
-        <h6>Alejandro Marín</h6>
+        <h6>Ajelandro Marín</h6>
         <p><i>Web Developer</i></p>
       </div>
 
       <div class="col-4 col-s-6 centro">
         <div class="circle">
-          <a href="#"><img src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
+          <a href="#" class="ModalPersonal" data-nombre="Alberto" data-puesto="Web Developer" data-contenido="prueba" data-contacto="chilleron11111@iesmarenostrum.com"><img class="pointer" src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
         </div>
         <h6>Alberto Chillerón</h6>
         <p><i>Web Developer</i></p>
@@ -58,46 +58,11 @@ menu: "yes"
 
       <div class="col-4 col-s-6 centro">
         <div class="circle">
-          <a href="#"><img src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
+          <a href="#" class="ModalPersonal" data-nombre="Isaac" data-puesto="Web Developer" data-contenido="prueba" data-contacto="martinez11111@iesmarenostrum.com"><img class="pointer" src="{{site.baseurl}}/resources/profile-vector-man.png" alt="profile man"></a>
         </div>
         <h6>Isaac Martínez</h6>
         <p><i>Web Developer</i></p>
       </div>
-    </div>
-
-    <div class="col-4 col-s-6" centro><!----->
-      <!-- The Modal -->
-      <div id="myModal" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <div class="modal-header" style="padding-top:25px; padding-bottom:25px;">
-            <span class="close">&times;</span>
-            <h4>Silvia Castillo</h4>
-            <p><i>Scrum Master</i></p>
-          </div>
-          <div class="modal-body"  style="padding-top:25px; padding-bottom:25px;">
-            <p>Some text in the Modal Body</p>
-            <p>Some other text...</p>
-          </div>
-          <div class="modal-footer" style="padding-top:25px; padding-bottom:25px;">
-            <h6>Contact: <u>silvia11111@iesmarenostrum.com</u></h6>
-          </div>
-        </div>
-      </div>
-      <script>
-      // Get the modal
-      var modal = document.getElementById('myModal');
-      // Get the button that opens the modal
-      var btn = document.getElementById("myBtn");
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-      // When the user clicks the button, open the modal
-      btn.onclick = function() {modal.style.display = "block";}
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {modal.style.display = "none";}
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {if (event.target == modal){modal.style.display = "none";}}
-      </script>
     </div>
 	</section>
 </div>
