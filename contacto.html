@@ -2,18 +2,17 @@
 layout: layout
 title: Página de contacto
 permalink: /contacto
-icon: "fa-send"
+icon: "fa-envelope"
 menu: "yes"
 ---
 <div class="container">
 	<div id="contenidoContacto">
-			<div id="tituloContacto"><h1>Contact Us:<h1></div>
-		</div>
+		<div id="tituloContacto"><h1>Contact Us:<h1></div>
 		<form>
 			<div class="row">
 				<div class="col-3 col-s-12"></div>
 				<div class="col-3 col-s-12" style="text-align:center">
-					<label><i class="fa fa-user"></i>Name:</label>
+					<label><i class="fa fa-user"></i> Name:</label>
 				</div>
 				<div class="col-3 col-s-12">
 					<input id="name" style="width:100%;" type="text" name="Name" size="20" placeholder="Name" required autofocus>
@@ -24,17 +23,17 @@ menu: "yes"
 			<div class="row">
 				<div class="col-3 col-s-12"></div>
 				<div class="col-3 col-s-12" style="text-align:center">
-					<label style="text-align:right;"><i class="fa fa-envelope"></i>Email:</label>
+					<label style="text-align:right;"><i class="fa fa-envelope"></i> Email:</label>
 				</div>
 				<div class="col-3 col-s-12">
-					<input id="mail" style="width:100%;" type="mail"  name="Email" size="20" placeholder="Email" required>
+					<input id="mail" style="width:100%;" type="email"  name="Email" size="20" placeholder="Email" required>
 				</div>
 				<div class="col-3 col-s-12"></div>
 			</div>
 			<div class="row">
 				<div class="col-3 col-s-12"></div>
 				<div class="col-6 col-s-12">
-					<label style="margin-top:200px;">Sugestions</label>
+					<label style="margin-top:200px;"><i class="fa fa-question-circle"></i> Sugestions:</label>
 						<div>
 							<p><textarea name="textarea" rows="10" cols="50"  placeholder="Sugestions"></textarea></p>
 						</div>
@@ -44,7 +43,7 @@ menu: "yes"
 				<div class="col-3 col-s-12"></div>
 				<div class="col-6 col-s-12">
 					<div id="idboton">
-						<input id="send" type="button" value="Send" onclick="" size="12">
+						<input id="send" class="pointer" type="submit" value="Send" size="12">
 					</div>
 				</div>
 			</div>
