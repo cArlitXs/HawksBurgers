@@ -18,3 +18,25 @@
 
 @import url("animate.css");
 @import url("font-awesome.css");
+
+/*------Slider------*/
+/*orientation: portrait - vertical*/
+/*orientation: landscape - horizontal*/
+/*@media only screen and (min-width: 480px) and (orientation: portrait) {
+  .item{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media only screen and (min-width: 800px) and (orientation: landscape) {
+  .item{
+    width: 33.33vw;
+    height: 33.33vw;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .item{
+    width: 25vw;
+    height: 25vw;
+  }
+}*/
