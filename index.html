@@ -6,16 +6,18 @@ icon: "fa-home"
 menu: "yes"
 ---
 <article id="inicio">
-	<!--
-	<video autoplay muted loop>
-		<source src="resources/salad.mp4" type="video/mp4">
-	</video>
-	<div class="contenido">
-		<h1><i class="fa fa-home"></i> Hamburguesas</h1>
-	</div>
-	-->
 	<article>
-		<div class="productos">
+		<header class="background-video-wrapper">
+			<video autoplay muted loop poster="{{site.baseurl}}/resources/burguer.png">
+				<source src="{{site.baseurl}}/resources/burguer.mp4" type="video/mp4">
+				<source src="{{site.baseurl}}/resources/burguer.webm" type="video/webm">
+				<source src="{{site.baseurl}}/resources/burguer.ogg" type="video/ogg">
+			</video>
+			<div class="contenido">
+				<h1 class="titulo">HAMBURGUESAS</h1>
+			</div>
+		</header>
+		<div class="productos row">
 			<a href="/galeria">
 				<div class="item" style="background-image: url('https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg');">
 					<h4 class="precio">5,00 &euro;</h4>
@@ -72,7 +74,9 @@ menu: "yes"
 			</a>
 			<a href="/galeria">
 				<div class="item" style="background-color: #c5de4f;">
-					<i class="fa fa-plus-circle fa-5x"></i>
+					<div style="display: flex;align-items: center;height: 100%;position: absolute;text-align: center;width: 100%;">
+						<i class="fa fa-plus-circle fa-5x"></i>
+					</div>
 				</div>
 			</a>
 		</div>
