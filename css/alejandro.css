@@ -84,7 +84,7 @@ body > header {
 	height: 166px;
 }
 
-body > header > img {
+body > header a img#logo_principal {
 	position: absolute;
 	z-index: 500;
 	display: block;
@@ -92,6 +92,11 @@ body > header > img {
 	height: 100px;
 	left: 0;
 	right: 0;
+	transition: all .2s ease-in-out;
+}
+
+body > header a:hover img#logo_principal {
+	transform: scale(1.2);
 }
 
 body > header > #eslogan {
