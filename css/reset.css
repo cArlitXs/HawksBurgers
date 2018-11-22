@@ -22,6 +22,18 @@ input, textarea{
     outline: none;
     border-radius: 5px;
 }
+.ta-l{
+	text-align: left;;
+}
+.ta-c{
+	text-align: center;;
+}
+.ta-r{
+	text-align: right;;
+}
+.ta-j{
+	text-align: justify;
+}
 .w-100{
     width: 100%;
 }
