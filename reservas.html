@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: Reservas
-permalink: /reservas
+permalink: /reserve
 ---
 
 <div class="container">
@@ -9,20 +9,25 @@ permalink: /reservas
 	<fieldset>
 	<legend>Take your reservation and enjoy our food</legend>
 	<div class="row">
-		<div class="col-12">
+		<div class="col-12" >
 		<label>Name:</label>
 		<br>
-		<input type="text" size="" name="nombre" placeholder="Name">
+		<input type="text" name="nombre" placeholder="Name" style="width: 100%" >
 		</div>
 	</div>
-	<div class="row" style="padding: 15px;" >
-		<div id="fecha" class="col-7 col-s-7">
-			<label>Select Date:</label>
-			<input type="date" name="calendar">
+	<div class="row"  >
+		<div id="fecha" class="col-9 col-s-9">
+			<div class="col-12" >
+				<label>Select Date:</label>
+				<br>
+				<input type="date" name="calendar" size="30">
+			</div>
 		</div>
-		<br><br>
-		<div class="col-5 col-s-5" style="text-align: center">
-			<select style="border-radius: 5px">
+		<br>
+		<div class="col-3 col-s-3">
+			<label>Select Hour:</label>
+			<br>
+			<select style="border-radius: 5px; padding: 10px 10px;border: 3px solid #ccc">
 				<option>13:00</option>
 				<option>13:15</option>
 				<option>13:30</option>
@@ -52,8 +57,8 @@ permalink: /reservas
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12">
-			<input type="button" name="reservar" value="RESERVE">
+		<div class="col-12" style="text-align: center;">
+			<input type="button" name="reservar" id="botoncompra" value="RESERVE">
 		</div>
 	</div>
 	</fieldset>
