@@ -22,7 +22,7 @@
 /*------Slider------*/
 /*orientation: portrait - vertical*/
 /*orientation: landscape - horizontal*/
-/*@media only screen and (min-width: 480px) and (orientation: portrait) {
+@media only screen and (min-width: 480px) and (orientation: portrait) {
   .item{
     width: 50vw;
     height: 50vw;
@@ -39,4 +39,4 @@
     width: 25vw;
     height: 25vw;
   }
-}*/
+}
