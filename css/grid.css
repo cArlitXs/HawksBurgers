@@ -18,6 +18,9 @@
 .dis-xs-none{
   display: none;
 }
+.dis-xs-block{
+  display: block;
+}
 label{
     visibility: hidden;
 }
@@ -28,6 +31,9 @@ label{
   }
   .dis-s-none{
     display: none;
+  }
+  .dis-s-block{
+    display: block;
   }
   label{
     visibility: visible;
