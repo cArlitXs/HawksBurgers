@@ -261,8 +261,8 @@ article#inicio article div.productos a:active div.item i.fa {
 }
 @media only screen and (min-width: 1366px) {
 	article#inicio article div.productos div.item {
-		width: 25vw;
-		height: 25vw;
+		width: 20vw;
+		height: 20vw;
 	}
 }
 
