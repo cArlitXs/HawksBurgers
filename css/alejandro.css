@@ -207,8 +207,8 @@ article#inicio article div.productos div.item {
 	display: inline-block;
 	position: relative;
 	margin: 15px;
-	width: 20vw;
-	height: 20vw;
+	width: 40vw;
+	height: 40vw;
 	background-size: 80%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -247,18 +247,22 @@ article#inicio article div.productos a:active div.item i.fa {
 	text-shadow: none;
 }
 
+/*
 @media only screen and (min-width: 480px) and (orientation: portrait) {
 	article#inicio article div.productos div.item {
-		width: 50vw;
-		height: 50vw;
+		width: 40vw;
+		height: 40vw;
 	}
 }
+*/
+
 @media only screen and (min-width: 800px) and (orientation: landscape) {
 	article#inicio article div.productos div.item {
-		width: 33.33vw;
-		height: 33.33vw;
+		width: 30vw;
+		height: 30vw;
 	}
 }
+
 @media only screen and (min-width: 1366px) {
 	article#inicio article div.productos div.item {
 		width: 20vw;
