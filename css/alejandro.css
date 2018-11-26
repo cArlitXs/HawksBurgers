@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
-
 .overlay {
 	z-index: 9999;
 	position: fixed;
@@ -215,6 +213,11 @@ article#inicio article div.productos div.item {
 	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 10px;
+	transition: all .2s ease-in-out;
+}
+
+article#inicio article div.productos div.item:hover {
+	background-size: 85%;
 }
 
 article#inicio article div.productos div.item > .precio {

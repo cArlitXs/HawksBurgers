@@ -12,16 +12,6 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Roboto Slab', serif;
 }
 
-/*---Estilos de input---*/
-
-input, textarea{
-    padding: 10px 10px;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    transition: 0.2s;
-    outline: none;
-    border-radius: 5px;
-}
 .ta-l{
 	text-align: left;
 }
@@ -36,12 +26,6 @@ input, textarea{
 }
 .w-100{
     width: 100%;
-}
-input:focus, textarea:focus {
-    border: 3px solid #a5c124;
-}
-input:invalid:focus {
-   border-color: salmon;
 }
 
 /* Tamanyos de texto */
@@ -137,6 +121,37 @@ h6, .h6 {
   border: 3px solid #555555;
 }
 
+
+.button6 {
+  background-color: #ff611c;
+  color: white;
+}
+.button6:hover, .button6:focus {
+  background-color: white;
+  color: black;
+  border: 3px solid #ff611c;
+}
+
+
+/*---Inputs---*/
+input, textarea, select{
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.2s;
+    outline: none;
+    border-radius: 5px;
+}
+input:focus, textarea:focus, select:focus{
+    border: 3px solid #00BFFF;
+}
+input:invalid:focus, select:invalid:focus {
+   border-color: salmon;
+}
+label, input, button, span, textarea, select{
+    font-size: 1em;
+}
+
 hr {
 	border: 0;
 	background-color: #fff;
@@ -144,3 +159,4 @@ hr {
 	width: 100%;
 	margin: 12px 0;
 }
+

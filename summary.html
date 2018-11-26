@@ -3,8 +3,9 @@ layout: layout
 title: Resumen
 permalink: /summary
 ---
-
+<div class="ACbackground">
 <div class="container">
+	<form>
 	<div class="row" id="central">
 	<div id="datosMetodos"  >
 		<div id="direccion" class="col-s-6"  style="padding: 15px;" >
@@ -15,10 +16,10 @@ permalink: /summary
 			<div id="datos" >
 				<br>
 				<label id="Nombre y Apellidos">Name</label><br>
-				<input type="text" style="border-radius: 5px;"class="nombre" name="nombre" placeholder="Name">
+				<input type="text" style="border-radius: 5px;"class="nombre" name="nombre" placeholder="Name" required>
 				<br><br>
 				<label id="txtDireccion">Adress</label><br>
-				<input type="text" style="border-radius: 5px;" class="direc" name="direccion" placeholder="Adress">
+				<input type="text" style="border-radius: 5px;" class="direc" name="direccion" placeholder="Adress" required>
 				
 			</div>
 			<br>
@@ -31,7 +32,7 @@ permalink: /summary
 			<div id="datos">
 				<br>
 				<h6 id="formaPago">Choose your payment method</h6><br><br>
-				<input type="radio" name="radio">CreditCard
+				<input type="radio" name="radio" required>CreditCard
 				<input type="text" style="border-radius: 5px;" class="numtarjeta" name="numtarjeta" placeholder="0000-0000-0000-0000">
 				<br>
 				<br>
@@ -86,11 +87,14 @@ permalink: /summary
 							<h6>Total: 13.50 €</h6>
 						</div>
 						<div class="col-4">
-							<input type="button" name="botoncompra" id="botoncompra" value="PAY NOW">
+							<!--<input class="button button1" type="button" name="botoncompra" id="botoncompra" value="PAY NOW">-->
+							<button class="button button1" id="botoncompra" name="botoncompra" type="submit"><b>PAY NOW</b></button>
 						</div>
 					</div>
 					<br>
 				</aside>
 			</div>
 		</div>
+		</form>
 	</div>
+</div>
