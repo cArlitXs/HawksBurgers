@@ -35,6 +35,11 @@ Añadir #page-menu antes de cualquier cosa
 }
 #page-menu .burger{
     width: 100%;
+    position:relative;
+}
+#page-menu .salad{
+    width: 50%;
+    position:relative;
 }
 #page-menu .titleburger{
     font-family: Arial, Helvetica, sans-serif;
@@ -55,12 +60,13 @@ Añadir #page-menu antes de cualquier cosa
     margin-top: 12%;
 }
 #page-menu .chickenimg{
-    margin-left: 79%;
+    margin-left: 111%;
     position: absolute;
 }
 #page-menu .chocolateimg{
     position: absolute;
-    margin-left: 284%;
+
+    margin-left: 325%;
     margin-top: -28%;
 }
 #page-menu .coffeimg{
