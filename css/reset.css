@@ -12,16 +12,6 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Roboto Slab', serif;
 }
 
-/*---Estilos de input---*/
-
-input, textarea{
-    padding: 10px 10px;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    transition: 0.2s;
-    outline: none;
-    border-radius: 5px;
-}
 .ta-l{
 	text-align: left;
 }
@@ -144,7 +134,7 @@ h6, .h6 {
 
 
 /*---Inputs---*/
-input{
+input, textarea, select{
     padding: 10px 10px;
     box-sizing: border-box;
     border: 3px solid #ccc;
@@ -152,13 +142,13 @@ input{
     outline: none;
     border-radius: 5px;
 }
-input:focus{
+input:focus, textarea:focus, select:focus{
     border: 3px solid #00BFFF;
 }
-input:invalid:focus {
+input:invalid:focus, select:invalid:focus {
    border-color: salmon;
 }
-label, input, button, span, textarea{
+label, input, button, span, textarea, select{
     font-size: 1em;
 }
 
