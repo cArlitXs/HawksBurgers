@@ -2,11 +2,14 @@
 /*#confirmacionPedido{
 	border:3px solid orange;
 }*/
-#central{
-	border-bottom: 1px solid black;
+.ACbackground{
     background-color: orange;
 }
-#botoncompra{
+#central{
+	/*border-bottom: 1px solid black;*/
+    padding-bottom: 15px;
+}
+/*#botoncompra{
 	border:1px solid grey;
     text-decoration: none;
     padding: 3px;
@@ -24,7 +27,7 @@
  #botoncompra:hover{
     opacity: 0.6;
     text-decoration: none;
-}
+}*/
 #precio1, #precio2, #precio3{
 	
 	text-align: right;
