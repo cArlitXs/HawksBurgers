@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
 .overlay {
 	z-index: 9999;
 	position: fixed;
@@ -266,6 +268,15 @@ article#inicio article div.productos a:active div.item i.fa {
 		width: 20vw;
 		height: 20vw;
 	}
+}
+
+/* Pagina de menu */
+
+.titulo_seccion {
+	font-family: 'Black Han Sans', sans-serif;
+	text-decoration: none;
+	padding: 12px 12px 6px;
+	color: #fff;
 }
 
 /* Footer */
