@@ -15,7 +15,7 @@ body > a#BotonCarro {
 	text-decoration: none;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 	bottom: 25px;
-	right: 35px;
+	right: 30px;
 	transition: all .2s ease-in-out;
 }
 
@@ -207,9 +207,9 @@ article#inicio article div.productos div.item {
 	display: inline-block;
 	position: relative;
 	margin: 15px;
-	width: 20vw;
-	height: 20vw;
-	background-size: cover;
+	width: 45vw;
+	height: 45vw;
+	background-size: 80%;
 	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 10px;
@@ -221,8 +221,8 @@ article#inicio article div.productos div.item > .precio {
     right: 25px;
     border-radius: 15px;
     color: #000;
-    background-color: rgba(255, 255, 255, 0.85);
-	border: 2px solid #fff;
+	background-color: rgba(0, 0, 0, 0.03);
+	border: 2px solid #e1e1e1;
     padding: 4px 12px;
 }
 
@@ -245,6 +245,27 @@ article#inicio article div.productos div.item i.fa {
 
 article#inicio article div.productos a:active div.item i.fa {
 	text-shadow: none;
+}
+
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+	article#inicio article div.productos div.item {
+		width: 40vw;
+		height: 40vw;
+	}
+}
+
+@media only screen and (min-width: 800px) and (orientation: landscape) {
+	article#inicio article div.productos div.item {
+		width: 30vw;
+		height: 30vw;
+	}
+}
+
+@media only screen and (min-width: 1366px) {
+	article#inicio article div.productos div.item {
+		width: 20vw;
+		height: 20vw;
+	}
 }
 
 /* Footer */

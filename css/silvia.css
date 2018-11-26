@@ -1,25 +1,25 @@
 input, textarea{
-	border-radius:8px;
+	border-radius: 8px;
 }
 
-#send{
-	width:160px;
+textarea:focus{
+	border: 3px solid green;
+}
+
+input[type='submit'] {
+	padding: 6px 12px;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 20px;
-	color: #ffffff;
+	color: #fff;
 	background-color: orange;
-	border-radius: 6px;
+	border-radius: 5px;
 	border: 2px solid orange;
 }
 
-#send:hover{
-	color: #ffffff;
-	opacity:0.7;
-}
-		
-textarea:focus{
-	border: 3px solid green;
+input[type='submit']:hover {
+	color: #fff;
+	opacity: 0.75;
 }
 
 .pointer {
