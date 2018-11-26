@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
 .overlay {
 	z-index: 9999;
 	position: fixed;
@@ -8,7 +10,7 @@
 
 body > a#BotonCarro {
 	position: fixed;
-	background-color: orange;
+	background-color: #ff611c;
 	border-radius: 50%;
 	padding: 15px;
 	color: #fff;
@@ -268,11 +270,44 @@ article#inicio article div.productos a:active div.item i.fa {
 	}
 }
 
+/* Pagina de menu */
+
+section#menu .titulo_seccion {
+	font-family: 'Roboto Slab', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	padding: 6px 12px;
+	color: #fff;
+}
+
+section#menu section {
+	border: 2px solid #ccc;
+	padding: 15px;
+	margin-bottom: 50px;
+}
+
+section#menu div.item > p a {
+	color: #000;
+	text-decoration: none;
+}
+section#menu div.item > p a i{
+	color: #ff611c;
+	text-decoration: none;
+}
+
 /* Footer */
 
 body > footer {
 	background-color: #a5c124;
 	color: #fff;
+}
+
+body > footer hr {
+	border: 0;
+	background-color: #fff;
+	height: 1px;
+	width: 100%;
+	margin: 12px 0;
 }
 
 body > footer nav > ul > li {
