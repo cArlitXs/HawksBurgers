@@ -302,6 +302,14 @@ body > footer {
 	color: #fff;
 }
 
+body > footer hr {
+	border: 0;
+	background-color: #fff;
+	height: 1px;
+	width: 100%;
+	margin: 12px 0;
+}
+
 body > footer nav > ul > li {
 	list-style: none;
 	padding: 6px;
