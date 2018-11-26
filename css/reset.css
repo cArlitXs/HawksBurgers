@@ -23,13 +23,13 @@ input, textarea{
     border-radius: 5px;
 }
 .ta-l{
-	text-align: left;;
+	text-align: left;
 }
 .ta-c{
-	text-align: center;;
+	text-align: center;
 }
 .ta-r{
-	text-align: right;;
+	text-align: right;
 }
 .ta-j{
 	text-align: justify;
@@ -135,4 +135,12 @@ h6, .h6 {
   background-color: white;
   color: black;
   border: 3px solid #555555;
+}
+
+hr {
+	border: 0;
+	background-color: #fff;
+	height: 1px;
+	width: 100%;
+	margin: 12px 0;
 }

@@ -275,15 +275,15 @@ body > footer {
 	color: #fff;
 }
 
-body > footer nav > ul > li > a{
-	text-decoration: none;
-}
-
 body > footer nav > ul > li {
-	/*display: inline-block;*/
+	list-style: none;
+	padding: 6px;
 }
 
-
+body > footer nav > ul > li > a {
+	text-decoration: none;
+	color: #fff;
+}
 
 @media only screen and (min-width: 420px) {
 	body > nav {
