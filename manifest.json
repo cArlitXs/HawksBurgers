@@ -1,21 +1,23 @@
 {
   "short_name": "Hawks Burgers",
-  "name": "from hawks to de güold",
+  "name": "Hawks Burgers",
   "display": "standalone",
-  "theme_color": "#2196F3",
+  "theme_color": "#a5c124",
+  "orientation": "portrait",
+  "background_color": "#a5c124",
   "icons": [
     {
-      "src": "img/icon.png",
+      "src": "img/icon48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "img/icon.png",
+      "src": "img/icon96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "img/icon.png",
+      "src": "img/icon192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
