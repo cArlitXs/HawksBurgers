@@ -2,6 +2,19 @@
 
 $(document).ready(function() {
 	
+	$('a.SumarCarrito').click(function(e) {
+		e.preventDefault();
+		let BotonCarrito = $('a#BotonCarro');
+		let CantidadProductos = BotonCarrito.find('span');
+		let Cantidad = 1;
+		if(CantidadProductos.length == 0) {
+			BotonCarrito.append('<span>' + Cantidad + '</span>');
+		} else {
+			Cantidad = parseInt(CantidadProductos.text()) + 1;
+			CantidadProductos.text(Cantidad);
+		}
+	});
+	
 	$('a.ModalPersonal').click(function(e) {
 		e.preventDefault();
 		let Body = $('body');
@@ -10,10 +23,11 @@ $(document).ready(function() {
 		let Puesto = Boton.data('puesto');
 		let Contenido = Boton.data('contenido');
 		let Contacto = Boton.data('contacto');
-		Body.prepend('<div class="modal" style="display: block;">'
+		Body.prepend('<div class="modal">'
+		+ '<a href="#" class="close background"></a>'
 		+ '<div class="modal-content">'
 		+ '<div class="modal-header" style="padding-top:25px; padding-bottom:25px;">'
-		+ '<a href="#" class="close">&times;</a>'
+		+ '<a href="#" class="close close_button">&times;</a>'
 		+ '<h4><i class="fa fa-user"></i> ' + Nombre + '</h4>'
 		+ '<p><i>' + Puesto + '</i></p>'
 		+ '</div>'
