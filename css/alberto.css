@@ -2,10 +2,10 @@
 /*#confirmacionPedido{
 	border:3px solid orange;
 }*/
-.ACbackground{
-    background-color: #ff611c;
+/*.ACbackground{
+   background: url('images/mesa.jpg');
 }
-.ACbackground .container{
+*/.ACbackground .container{
     /*border-bottom: 1px solid black;*/
     padding-bottom: 15px;
 }
@@ -53,11 +53,12 @@
 /*----*/
 .ACbackground fieldset{
     background-color: white;
-    border: 3px solid #a5c124;
+    border: 3px solid #ff611c;
     border-radius: 10px;
+    padding: 15px;
 }
 .ACbackground fieldset legend{
-    background-color: #a5c124;
+    background-color: #ff611c;
     color: white;
     border-radius: 10px;
     padding: 10px;

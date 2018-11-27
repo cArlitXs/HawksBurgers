@@ -7,9 +7,17 @@ icon: "fa-tag"
 order: 3
 ---
 
+<script>
+	function BotonComprar(){
+		alert("Your reservation has been registered");
+		location.href = "{{site.baseurl}}/";
+	}
+</script>
+
 <div class="ACbackground">
 <div class="container">
 	<h1 class="ta-c"> Reservation </h1>
+	<form>
 	<fieldset>
 	<legend>Take your reservation and enjoy our food</legend>
 	<div class="row">
@@ -63,9 +71,10 @@ order: 3
 	</div>
 	<div class="row">
 		<div class="col-4 ta-c">
-			<button class="button button" id="botoncompra" name="botoncompra" type="submit"><b>RESERVE</b></button>
+			<button class="button button6" id="botoncompra" name="botoncompra" type="button" onclick="BotonComprar()"><b>RESERVE</b></button>
 		</div>
 	</div>
 	</fieldset>
+	</form>
 </div>
 </div>
