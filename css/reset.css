@@ -151,12 +151,3 @@ input:invalid:focus, select:invalid:focus {
 label, input, button, span, textarea, select{
     font-size: 1em;
 }
-
-hr {
-	border: 0;
-	background-color: #fff;
-	height: 1px;
-	width: 100%;
-	margin: 12px 0;
-}
-
