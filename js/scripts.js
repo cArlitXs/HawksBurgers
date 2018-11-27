@@ -2,6 +2,19 @@
 
 $(document).ready(function() {
 	
+	$('a.SumarCarrito').click(function(e) {
+		e.preventDefault();
+		let BotonCarrito = $('BotonCarro');
+		let CantidadProductos = BotonCarrito.find('span');
+		let Cantidad = 1;
+		if(CantidadProductos.length < 0) {
+			BotonCarrito.append('<span>' + Cantidad + '</span>');
+		} else {
+			Cantidad = parseInt(CantidadProductos.text()) + 1;
+			CantidadProductos.text(Cantidad);
+		}
+	});
+	
 	$('a.ModalPersonal').click(function(e) {
 		e.preventDefault();
 		let Body = $('body');

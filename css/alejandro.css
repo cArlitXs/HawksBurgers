@@ -23,6 +23,16 @@ body > a#BotonCarro:hover {
 	transform: scale(1.2);
 }
 
+body > a#BotonCarro span {
+	position: absolute;
+	padding: 6px 10px;
+	background-color: green;
+	border-radius: 50%;
+	top: -5px;
+	right: -10px;
+	border: 1px solid #fff;
+}
+
 body > nav {
 	display: none;
 	z-index: 10000;
