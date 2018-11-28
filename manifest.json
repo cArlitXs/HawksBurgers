@@ -25,7 +25,7 @@
     ],
     "name": "Hawks Burgers",
     "short_name": "Hawks Burgers",
-    "start_url": "/",
+    "start_url": "/HawksBurgers",
     "theme_color": "#a5c124",
     "scope":"/"
 }
