@@ -9,40 +9,40 @@ order: 3
 
 <script>
 	function BotonComprar(){
-		alert("Your reservation has been registered");
+		alert("Your reservation has been registered.");
 		location.href = "{{site.baseurl}}/";
 	}
 </script>
 
 <div class="ACbackground">
 <div class="container">
-	<h1 class="ta-c"> Reservation </h1>
-	<form>
+	<h1 class="ta-c"> Reservation</h1>
+	<form onsubmit="BotonComprar()">
 	<fieldset>
 	<legend>Take your reservation and enjoy our food</legend>
 	<div class="row">
 		<div class="col-2 col-s-3 ta-r">
-		<label>Name:</label>
+		<label><i class="fa fa-user"></i> Name:</label>
 		</div>
 		<div class="col-2 col-s-3">
-		<input type="text" name="nombre" placeholder="Name">
+		<input type="text" name="nombre" placeholder="Name" required autofocus>
 		</div>
 
 	</div>
 	<div class="row">
 		<div id="fecha" class="col-2 col-s-3 ta-r">
-			<label>Select Date:</label>
+			<label><i class="fa fa-calendar"></i> Select Date:</label>
 		</div>
 		<div class="col-2 col-s-3">
-			<input type="date" name="calendar">
+			<input type="date" name="calendar" required>
 		</div>
 		<br>
 		<div class="col-2 col-s-3 ta-r">
-			<label>Select Hour:</label>
+			<label><i class="fa fa-clock-o"></i> Select Hour:</label>
 		</div>
 		<div  class="col-2 col-s-3">
-			<select>
-				<option>13:00</option>
+			<select required>
+				<option selected>13:00</option>
 				<option>13:15</option>
 				<option>13:30</option>
 				<option>13:45</option>
@@ -72,11 +72,7 @@ order: 3
 	</div>
 	<div class="row">
 		<div class="col-4 ta-c">
-<<<<<<< HEAD
-			<button class="button button6" id="botoncompra" name="botoncompra" type="submit"><b>RESERVE</b></button>
-=======
-			<button class="button button6" id="botoncompra" name="botoncompra" type="button" onclick="BotonComprar()"><b>RESERVE</b></button>
->>>>>>> cb0d988d849c03cffa3a90f2aebd999471df5b91
+			<button class="button button6" id="botoncompra" name="botoncompra" type="submit"><i class="fa fa-thumbs-o-up"></i> <b>Reserve</b></button>
 		</div>
 	</div>
 	</fieldset>
