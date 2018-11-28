@@ -1,24 +1,26 @@
 {
-  "short_name": "AirHorner",
-  "name": "Kinlan's AirHorner of Infamy",
+  "short_name": "Hawks Burgers",
+  "name": "Hawks Burgers",
   "display": "standalone",
-  "theme_color": "#2196F3",
+  "theme_color": "#a5c124",
+  "orientation": "portrait",
+  "background_color": "#a5c124",
   "icons": [
     {
-      "src": "launcher-icon-1x.png",
+      "src": "img/icon48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "launcher-icon-2x.png",
+      "src": "img/icon96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "launcher-icon-4x.png",
+      "src": "img/icon192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
   ],
-  "start_url": "/?utm_source=homescreen"
+  "start_url": "https://interfacesweb18-19.github.io/scrum-2-styles-multimedia-halcones-2k/"
 }
