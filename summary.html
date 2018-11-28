@@ -8,36 +8,35 @@ permalink: /summary
 <div class="container">
 	<form onsubmit="alert('Successful purchase')">
 	<div class="row" id="central">
-	<div id="datosMetodos"  >
-		<div id="direccion" class="col-s-6"  style="padding: 15px;" >
-			<div id="pasos" class="row" >
+	<div id="datosMetodos">
+		<div id="direccion" class="col-s-6"  style="padding: 15px;">
+			<div id="pasos" class="row">
 				<br>
-				<h5>Personal Info: </h5>
+				<h5><i class="fa fa-address-card"></i> Personal Info:</h5>
 			</div>
-			<div id="datos" >
+			<div id="datos">
 				<br>
-				<label id="Nombre y Apellidos">Name</label><br>
-				<input type="text" style="border-radius: 5px;"class="nombre" name="nombre" placeholder="Name" required>
+				<label for="nombre"><i class="fa fa-user"></i> Name</label><br>
+				<input type="text" style="border-radius: 5px;" class="nombre" name="nombre" placeholder="Name" required autofocus>
 				<br><br>
-				<label id="txtDireccion">Adress</label><br>
+				<label for="direccion"><i class="fa fa-map-marker"></i> Adress</label><br>
 				<input type="text" style="border-radius: 5px;" class="direc" name="direccion" placeholder="Adress" required>
-				
 			</div>
 			<br>
 		</div>
 		<div id="metodoPago" class="col-s-6" style="padding: 15px;">
 			<br>
 			<div id="pasos">
-				<h5>Payment Method</h5>
+				<h5><i class="fa fa-"></i> Payment Method</h5>
 			</div>
 			<div id="datos">
 				<br>
 				<h6 id="formaPago">Choose your payment method</h6><br><br>
-				<input type="radio" name="radio" required>CreditCard
+				<input type="radio" name="radio" checked> <i class="fa fa-credit-card"></i> Credit Card
 				<input type="text" style="border-radius: 5px;" class="numtarjeta" name="numtarjeta" placeholder="0000-0000-0000-0000">
 				<br>
 				<br>
-				<input type="radio" name="radio">Cash				
+				<input type="radio" name="radio"> <i class="fa fa-money"></i> Cash				
 			</div>
 			<br>
 		</div>
@@ -46,7 +45,7 @@ permalink: /summary
 		<div style="padding: 25px;">
 			<aside id="resumen" class="col-6">
 				<div id="pasos">
-				<h5>Summary</h5>
+				<h5><i class="fa fa-list"></i> Summary</h5>
 				</div>
 				<div id="datosresumen">
 					<div id="pedido"  >
@@ -88,8 +87,7 @@ permalink: /summary
 							<h6>Total: 14,14 €</h6>
 						</div>
 						<div class="col-4">
-							<!--<input class="button button1" type="button" name="botoncompra" id="botoncompra" value="PAY NOW">-->
-							<button class="button button6" id="botoncompra" name="botoncompra" type="submit"><b>PAY NOW</b></button>
+							<button class="button button6" id="botoncompra" name="botoncompra" type="submit"><i class="fa fa-check-square-o"></i> <b>Pay now</b></button>
 						</div>
 					</div>
 					<br>
