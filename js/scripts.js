@@ -1,6 +1,9 @@
-// Por Alejandro Marín Gómez
+---
+---
 
 $(document).ready(function() {
+	
+	Push.Permission.request();
 	
 	$('a.SumarCarrito').click(function(e) {
 		e.preventDefault();
@@ -66,6 +69,19 @@ $(document).ready(function() {
 		Overlay.fadeOut(300, function() {
 			$(this).remove();
 		});
+	});
+	
+	$('form#Summary').submit(function(e) {
+		e.preventDefault();
+		if(Notification.permission !== "granted") {
+			alert('Thank you! Your order is on the way! :)');
+		} else {
+			Push.create("Order status", {
+				body: "Thank you! Your order is on the way! :)",
+				icon: "{{site.baseurl}}/img/icon.png",
+				timeout: 5000,
+			});
+		}
 	});
 	
 });
