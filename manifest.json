@@ -1,27 +1,31 @@
 {
-  "short_name": "Hawks Burgers",
-  "name": "Hawks Burgers",
-  "display": "standalone",
-  "theme_color": "#a5c124",
-  "orientation": "portrait",
-  "background_color": "#a5c124",
-  "lang": "es-ES",
-  "icons": [
-    {
-      "src": "img/icon48.png",
-      "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "img/icon96.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "img/icon192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
-  ],
-  "start_url": "https://interfacesweb18-19.github.io/scrum-2-styles-multimedia-halcones-2k/"
+    "background_color": "#a5c124",
+    "description":"from hawks to de güold",
+    "display": "standalone",
+	  "gcm_sender_id":"1046892386423",
+	  "gcm_user_visible_only":true,
+    "orientation": "portrait",
+    "lang": "es-ES",
+    "icons": [
+        {
+            "src": "img/icon48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "img/icon96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "img/icon192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "name": "Hawks Burgers",
+    "short_name": "Hawks Burgers",
+    "start_url": "/",
+    "theme_color": "#a5c124",
+    "scope":"/"
 }
