@@ -294,12 +294,6 @@ section#menu .titulo_seccion {
 	color: #fff;
 }
 
-section#menu section {
-	border: 2px solid #ccc;
-	padding: 15px;
-	margin-bottom: 50px;
-}
-
 section#menu div.item > p a {
 	color: #000;
 	text-decoration: none;
