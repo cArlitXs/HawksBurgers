@@ -1,10 +1,11 @@
 {
   "short_name": "Hawks Burgers",
   "name": "Hawks Burgers",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#a5c124",
   "orientation": "portrait",
   "background_color": "#a5c124",
+  "lang": "es-ES",
   "icons": [
     {
       "src": "img/icon48.png",
