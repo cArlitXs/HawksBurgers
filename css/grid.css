@@ -40,7 +40,7 @@ label{
   }
 	
 [class*="col-"] {
-  padding: 0;
+  padding: 15px;
 }
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
